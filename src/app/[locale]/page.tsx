@@ -624,7 +624,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 9: Universe Mode */}
+      {/* Module 9: Food Guide */}
       <section id="food-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -638,7 +638,7 @@ export default function HomePage() {
 
           <div className="hidden md:block rounded-xl border-2 border-border bg-card overflow-hidden">
             <div className="grid grid-cols-12 bg-muted/40">
-              <div className="col-span-3 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">Tomodachi Life Living The Dream Section</div>
+              <div className="col-span-3 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">Tomodachi Life Living the Dream Section</div>
               <div className="col-span-4 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">What It Is</div>
               <div className="col-span-5 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">What Players Can Do</div>
             </div>
@@ -686,7 +686,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 10: Community Creations */}
+      {/* Module 10: Outfits */}
       <section id="outfits" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -732,7 +732,7 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 11: The Island */}
+      {/* Module 11: Room Interiors */}
       <section id="room-interiors" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -768,7 +768,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 12: MyFACTION */}
+      {/* Module 12: Palette House */}
       <section id="palette-house" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
