@@ -484,14 +484,38 @@ export default function HomePage() {
       <section id="mii-creator" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.matchTypes.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.matchTypes.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.matchTypes.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.matchTypes.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.matchTypes.matches.map((match: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{match.name}</h3>
-                <p className="text-sm text-muted-foreground">{match.description}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+            {(t.modules.matchTypes.matches || []).map((match: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--gold)/0.7)] transition-all duration-300 hover:shadow-[0_8px_24px_hsl(var(--nav-theme)/0.2)] hover:-translate-y-1">
+                <div className="w-12 h-12 rounded-lg mb-4 bg-gradient-to-br from-[hsl(var(--nav-theme)/0.14)] to-[hsl(var(--gold)/0.14)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={match.icon}
+                    className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <h3 className="text-xl font-bebas mb-3 text-[hsl(var(--nav-theme))]">{match.name}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{match.description}</p>
+                <ul className="space-y-2">
+                  {(match.bullets || []).map((bullet: string, bulletIndex: number) => (
+                    <li key={bulletIndex} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {(t.modules.matchTypes.newSystems || []).map((item: string, i: number) => (
+              <div key={i} className="p-4 rounded-lg bg-card border border-[hsl(var(--gold)/0.35)] text-sm">
+                {item}
               </div>
             ))}
           </div>
@@ -502,17 +526,32 @@ export default function HomePage() {
       <section id="relationships" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.showcase.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.showcase.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.showcase.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.showcase.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.showcase.moments.map((moment: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{moment.title}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+            {(t.modules.showcase.moments || []).map((moment: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--gold)/0.6)] transition-all duration-300 hover:-translate-y-1">
+                <div className="w-10 h-10 rounded-lg mb-3 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={moment.icon}
+                    className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme))]">{moment.title}</h3>
                 <p className="text-sm text-muted-foreground">{moment.description}</p>
               </div>
             ))}
           </div>
+          {t.modules.showcase.specialFeature && (
+            <div className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.45)]">
+              <h4 className="text-xl font-bebas text-gold-gradient mb-2">{t.modules.showcase.specialFeature.name}</h4>
+              <p className="text-sm text-muted-foreground">{t.modules.showcase.specialFeature.description}</p>
+            </div>
+          )}
         </div>
       </section>
 
@@ -520,13 +559,22 @@ export default function HomePage() {
       <section id="island-builder" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.mygm.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.mygm.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.mygm.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.mygm.subtitle}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.mygm.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
+            {(t.modules.mygm.features || []).map((feature: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.7)] transition-all duration-300 hover:shadow-[0_8px_24px_hsl(var(--nav-theme)/0.2)]">
+                <div className="w-10 h-10 rounded-lg mb-3 bg-[hsl(var(--gold)/0.1)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={feature.icon}
+                    className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground">{feature.description}</p>
               </div>
             ))}
@@ -545,19 +593,31 @@ export default function HomePage() {
       <section id="shops-facilities" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myrise.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myrise.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.myrise.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.myrise.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.myrise.divisions.map((division: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{division.name}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{division.goal}</p>
-                <div className="flex flex-wrap gap-2">
-                  {division.opponents.map((opponent: string, j: number) => (
-                    <span key={j} className="px-3 py-1 rounded-full bg-muted text-xs">{opponent}</span>
-                  ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {(t.modules.myrise.divisions || []).map((division: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--gold)/0.55)] transition-all duration-300">
+                <div className="w-10 h-10 rounded-lg mb-3 bg-gradient-to-br from-[hsl(var(--nav-theme)/0.14)] to-[hsl(var(--gold)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={division.icon}
+                    className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                  />
                 </div>
+                <h3 className="text-xl font-bebas mb-3 text-[hsl(var(--nav-theme))]">{division.name}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{division.summary || division.goal}</p>
+                <ul className="space-y-2">
+                  {(division.details || division.opponents || []).map((detail: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--gold-dark))] mt-0.5 flex-shrink-0" />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>

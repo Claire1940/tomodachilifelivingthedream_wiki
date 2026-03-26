@@ -428,7 +428,7 @@
     },
     "matchTypes": {
       "title": "Tomodachi Life Living The Dream Mii Creator",
-      "subtitle": "Step-by-step Mii building flow from setup to final resident identity",
+      "subtitle": "Build residents with guided setup, advanced face tools, and full identity controls",
       "quickFacts": [
         {
           "label": "Creation Paths",
@@ -445,35 +445,65 @@
       ],
       "matches": [
         {
+          "icon": "BookOpen",
           "name": "Starting Point",
-          "description": "Begin with guided questions or manually choose every Mii part."
+          "description": "Choose Get Help for guided prompts or From Scratch for full manual control.",
+          "bullets": [
+            "Get Help narrows down your look with simple questions",
+            "From Scratch lets you pick every part directly",
+            "Both routes flow into deeper customization"
+          ]
         },
         {
+          "icon": "Palette",
           "name": "Face and Style",
-          "description": "Fine-tune eyes, brows, nose, hair, glasses, and additional face detail."
+          "description": "Adjust core appearance elements with broader face and style options.",
+          "bullets": [
+            "Tune face shape, hairstyle, eyebrows, eyes, and nose",
+            "Use options for glasses, makeup, and facial hair",
+            "Some face parts are unique to this release"
+          ]
         },
         {
+          "icon": "Sparkles",
           "name": "Advanced Tools",
-          "description": "Use Face Paint, zoom tools, and grid controls for unique visual identity."
+          "description": "Use Face Paint to go beyond preset parts with hand-crafted detail.",
+          "bullets": [
+            "Add stamps and custom markings",
+            "Use zoom and grid tools for precise edits",
+            "Apply palette controls for extra style range"
+          ]
         },
         {
+          "icon": "Settings",
           "name": "Body and Identity",
-          "description": "Set name, body type, voice, and behavior profile for each resident."
+          "description": "Set voice, body profile, and personality traits after appearance setup.",
+          "bullets": [
+            "Choose name, height, and body type",
+            "Set gender and voice style",
+            "Tune quirks and energy to shape behavior"
+          ]
         },
         {
+          "icon": "Users",
           "name": "Final Resident",
-          "description": "Build family, friends, originals, or fictional characters to shape island stories."
+          "description": "Create residents based on family, friends, admired people, or originals.",
+          "bullets": [
+            "Supports self-inserts and friend groups",
+            "Works for full original character builds",
+            "Your cast defines island story outcomes"
+          ]
         }
       ],
       "newSystems": [
-        "Guided creation and manual creation share one deep customization flow",
-        "Face Paint expands beyond preset-only workflows",
-        "Identity settings meaningfully influence social outcomes"
+        "Two creation flows support both new players and detail-focused creators",
+        "Face Paint enables custom visual detail beyond default parts",
+        "Identity settings directly influence island behavior and social scenes"
       ]
     },
     "showcase": {
       "title": "Tomodachi Life Living The Dream Relationships",
-      "subtitle": "How introductions, romance rules, and roommate life drive story moments",
+      "subtitle": "Track how introductions, friendship growth, conflicts, and dating rules shape island stories",
       "quickFacts": [
         {
           "label": "Core Loop",
@@ -490,34 +520,44 @@
       ],
       "moments": [
         {
+          "icon": "MessageCircle",
           "title": "Introductions You Can Trigger",
-          "description": "Manually place two residents together to force first contact and start a relationship path."
+          "description": "Move one resident near another to force a first introduction and begin their social path."
         },
         {
+          "icon": "TrendingUp",
           "title": "Friendship Progression",
-          "description": "Residents can shift from acquaintances to closer bonds through repeated interactions."
+          "description": "Connections move from first contact into stronger bonds through repeated interactions."
         },
         {
-          "title": "Drama and Recovery",
-          "description": "Conflicts, crushes, and emotional swings create long-term social narratives."
+          "icon": "AlertTriangle",
+          "title": "Fights, Crushes, and Surprise Drama",
+          "description": "Residents can fight, fall in love, and create sudden emotional turns that keep stories active."
         },
         {
+          "icon": "Star",
+          "title": "Dating Preferences and Inclusive Pairing",
+          "description": "Each resident can use flexible dating preferences, including same-sex and multi-option settings."
+        },
+        {
+          "icon": "Globe",
           "title": "Real-Life Relationship Rules",
-          "description": "Predefined real-world links change which social paths are available."
+          "description": "Define real-life family links to control which relationship outcomes are allowed."
         },
         {
+          "icon": "Home",
           "title": "Shared Home Dynamics",
-          "description": "Roommate combinations produce more frequent comedy, friction, and event variety."
+          "description": "Up to eight roommates in one home increases daily comedy, friction, and event variety."
         }
       ],
       "specialFeature": {
         "name": "Relationship Manager",
-        "description": "Use intentional introductions, housing choices, and preference setup to steer island social outcomes."
+        "description": "Use introductions, roommate layout, and preference settings to guide the social pace of your island."
       }
     },
     "mygm": {
       "title": "Tomodachi Life Living The Dream Island Builder",
-      "subtitle": "Plan land, facilities, and outdoor amenities with clear system value",
+      "subtitle": "Shape terrain, move buildings, and design spaces that improve resident flow",
       "quickFacts": [
         {
           "label": "Landscape Control",
@@ -538,24 +578,34 @@
       ],
       "features": [
         {
+          "icon": "Map",
           "title": "Shape the Landscape",
-          "description": "Adjust terrain and district spacing around resident activity patterns."
+          "description": "Expand and reshape land areas instead of keeping a fixed island layout."
         },
         {
+          "icon": "Layers",
           "title": "Move Homes and Facilities",
-          "description": "Reposition major buildings to improve route flow and social density."
+          "description": "Reposition homes and major facilities to build stronger activity routes."
         },
         {
+          "icon": "Hammer",
           "title": "Use Quik Build Amenities",
-          "description": "Add benches, trees, and utility objects to increase island livability."
+          "description": "Add trees, benches, vending machines, and other ready-made amenity objects."
         },
         {
-          "title": "Design Interiors and Exteriors",
-          "description": "Coordinate room themes with exterior styling for stronger identity."
+          "icon": "Package",
+          "title": "Design Comfortable Interiors",
+          "description": "Customize furniture, wallpaper, and flooring to match each resident's style."
         },
         {
-          "title": "Palette House Workflows",
-          "description": "Craft original decorative items and giftable objects for long-term personalization."
+          "icon": "Building",
+          "title": "Make Custom Exteriors and Ground Tiles",
+          "description": "Design house exteriors and outdoor tile patterns to define neighborhood identity."
+        },
+        {
+          "icon": "Gift",
+          "title": "Create Original Island Items at Palette House",
+          "description": "Build custom food, clothing, pets, and other decorative assets for gifting and sharing."
         }
       ],
       "ples": [
@@ -569,7 +619,7 @@
     },
     "myrise": {
       "title": "Tomodachi Life Living The Dream Shops and Facilities",
-      "subtitle": "A complete index of named locations and what each one does",
+      "subtitle": "Every major named location and why it matters in your daily island loop",
       "quickFacts": [
         {
           "label": "Economy Hub",
@@ -587,39 +637,99 @@
       "paths": [
         {
           "name": "Daily Loop Path",
-          "description": "Check fountain, shop food, then handle resident requests."
+          "description": "Check fountain, food, and room facilities before relationship management."
         },
         {
           "name": "Style Loop Path",
-          "description": "Visit clothing and room facilities before relationship events."
+          "description": "Run clothing, marketplace, and photo spots for fresh event scenes."
         }
       ],
       "divisions": [
         {
-          "name": "Core Service Facilities",
-          "goal": "Handle routine needs and quality-of-life upgrades",
-          "opponents": [
-            "Wishing Fountain",
-            "Fresh Kingdom Food Mart",
-            "Where & Wear Clothing",
-            "T&C Reno Home Supply"
+          "icon": "Trophy",
+          "name": "Wishing Fountain",
+          "summary": "The fountain supports the island economy and daily upkeep loops.",
+          "details": [
+            "Collect donations here",
+            "Use island currency for purchases",
+            "Keep daily loops active with regular check-ins"
           ]
         },
         {
-          "name": "Exploration and Event Facilities",
-          "goal": "Drive novelty, stories, and snapshots",
-          "opponents": [
-            "Quik Build Amenities",
-            "Marketplace",
-            "Foto-Tomo Photography",
-            "Mii News Station"
+          "icon": "Download",
+          "name": "Fresh Kingdom Food Mart",
+          "summary": "Primary food source for discovering favorites and managing mood.",
+          "details": [
+            "Buy drinks, sweets, and daily food items",
+            "Fill resident hunger needs quickly",
+            "Use reactions to map favorite foods"
+          ]
+        },
+        {
+          "icon": "Monitor",
+          "name": "Where & Wear Clothing",
+          "summary": "Main clothing facility for both normal outfits and standout costume looks.",
+          "details": [
+            "Shop apparel and custom design pieces",
+            "Mix everyday and novelty outfits",
+            "Support appearance-focused personalization"
+          ]
+        },
+        {
+          "icon": "Film",
+          "name": "T&C Reno Home Supply",
+          "summary": "Core room makeover facility for themed interiors and comfort upgrades.",
+          "details": [
+            "Revamp rooms and living spaces",
+            "Build strong themed interiors",
+            "Link room design with identity systems"
+          ]
+        },
+        {
+          "icon": "ClipboardCheck",
+          "name": "Quik Build Amenities",
+          "summary": "Outdoor placement shop for objects that improve layout and activity zones.",
+          "details": [
+            "Buy placeable island objects",
+            "Strengthen decoration planning",
+            "Create better interaction hotspots"
+          ]
+        },
+        {
+          "icon": "Keyboard",
+          "name": "Marketplace",
+          "summary": "Variable shop with rotating inventory and occasional unusual finds.",
+          "details": [
+            "Browse reasonably priced items",
+            "Check inventory by time of day",
+            "Look for mystery bags and rare picks"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "name": "Foto-Tomo Photography",
+          "summary": "Photo-op location for staged snapshots and comedic resident scenes.",
+          "details": [
+            "Create themed photo situations",
+            "Capture residents in styled poses",
+            "Build gallery-ready visual moments"
+          ]
+        },
+        {
+          "icon": "Eye",
+          "name": "Mii News Station",
+          "summary": "Island news outlet for tracking daily events and resident updates.",
+          "details": [
+            "Review day-to-day island happenings",
+            "Track what residents are doing",
+            "Follow event-driven story beats"
           ]
         }
       ],
       "features": [
-        "Facility loops are one of the easiest ways to keep islands active",
-        "Marketplace rotation supports repeat visits",
-        "Photo and news systems create ongoing event content"
+        "Named facilities make daily routing easier to plan",
+        "Marketplace and food loops support repeat engagement",
+        "Photography and news facilities create evergreen story content"
       ],
       "rewards": [
         "Faster daily management",
