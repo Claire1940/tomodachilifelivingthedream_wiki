@@ -1,30 +1,12 @@
 'use client'
 
 import { useEffect, useState, Suspense, lazy } from 'react'
-import Link from 'next/link'
 import {
-  AlertTriangle,
   ArrowRight,
   Check,
-  ChevronDown,
-  ClipboardCheck,
-  Clock,
   Copy,
-  Download,
-  ExternalLink,
-  Gamepad2,
   Gift,
-  Hammer,
-  Home,
-  Keyboard,
-  MessageCircle,
-  Package,
-  Shield,
   Sparkles,
-  Star,
-  TrendingUp,
-  Users,
-  X
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -187,7 +169,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
         {/* Background Grid Effect */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--nav-theme)/0.08)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--nav-theme)/0.08)_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" />
 
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-8 scroll-reveal">
@@ -236,7 +218,7 @@ export default function HomePage() {
                            border-2 border-[hsl(var(--gold)/0.5)] hover:bg-[hsl(var(--gold)/0.1)]
                            rounded-lg font-semibold text-lg
                            transition-all duration-300
-                           hover:shadow-[0_8px_24px_rgba(251,191,36,0.3)]
+                           hover:shadow-[0_8px_24px_hsl(var(--gold)/0.35)]
                            hover:-translate-y-1"
               >
                 {t.hero.playOnRobloxCTA}
@@ -293,10 +275,10 @@ export default function HomePage() {
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
-                'release-editions', 'roster', 'ratings', 'controls',
-                'match-types', 'showcase', 'mygm', 'myrise',
-                'universe-mode', 'community-creations', 'the-island', 'myfaction',
-                'locker-codes', 'pc-requirements', 'arenas', 'dlc-unlockables'
+                'release-date', 'demo', 'beginner-guide', 'new-features',
+                'mii-creator', 'relationships', 'island-builder', 'shops-facilities',
+                'food-guide', 'outfits', 'room-interiors', 'palette-house',
+                'roommates', 'mii-exchange', 'price-platforms', 'trailer-direct'
               ]
               const sectionId = sectionIds[index]
 
@@ -307,7 +289,7 @@ export default function HomePage() {
                   className="scroll-reveal group p-6 rounded-xl border-2 border-border
                              bg-card hover:border-[hsl(var(--gold)/0.6)]
                              transition-all duration-300 cursor-pointer text-left
-                             hover:shadow-[0_12px_32px_rgba(251,191,36,0.2)]
+                             hover:shadow-[0_12px_32px_hsl(var(--gold)/0.3)]
                              hover:-translate-y-2 relative overflow-hidden"
                   style={{ animationDelay: `${index * 50}ms` }}
                 >
@@ -341,7 +323,7 @@ export default function HomePage() {
       />
 
       {/* Module 1: Release & Editions */}
-      <section id="release-editions" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="release-date" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
@@ -385,7 +367,7 @@ export default function HomePage() {
       />
 
       {/* Module 2: Roster */}
-      <section id="roster" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="demo" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.roster.title}</h2>
@@ -424,7 +406,7 @@ export default function HomePage() {
       />
 
       {/* Module 3: Ratings */}
-      <section id="ratings" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="beginner-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
@@ -435,7 +417,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Men&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Starter Priorities</h3>
               <div className="space-y-3">
                 {t.modules.ratings.menTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -449,7 +431,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Women&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Daily Loop Priorities</h3>
               <div className="space-y-3">
                 {t.modules.ratings.womenTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -467,7 +449,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 4: Controls */}
-      <section id="controls" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="new-features" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.controls.title}</h2>
@@ -499,7 +481,7 @@ export default function HomePage() {
       />
 
       {/* Module 5: Match Types */}
-      <section id="match-types" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="mii-creator" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.matchTypes.title}</h2>
@@ -517,7 +499,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 6: Showcase */}
-      <section id="showcase" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="relationships" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.showcase.title}</h2>
@@ -535,7 +517,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 7: MyGM */}
-      <section id="mygm" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="island-builder" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.mygm.title}</h2>
@@ -560,7 +542,7 @@ export default function HomePage() {
       />
 
       {/* Module 8: MyRISE */}
-      <section id="myrise" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="shops-facilities" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myrise.title}</h2>
@@ -583,7 +565,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 9: Universe Mode */}
-      <section id="universe-mode" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="food-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.universeMode.title}</h2>
@@ -601,7 +583,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 10: Community Creations */}
-      <section id="community-creations" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="outfits" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.communityCreations.title}</h2>
@@ -626,7 +608,7 @@ export default function HomePage() {
       />
 
       {/* Module 11: The Island */}
-      <section id="the-island" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="room-interiors" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.theIsland.title}</h2>
@@ -636,7 +618,7 @@ export default function HomePage() {
             {t.modules.theIsland.orders.map((order: any, i: number) => (
               <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
                 <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme))]">{order.name}</h3>
-                <p className="text-sm text-muted-foreground mb-3">Leader: {order.leader}</p>
+                <p className="text-sm text-muted-foreground mb-3">Focus: {order.leader}</p>
                 <p className="text-sm">{order.description}</p>
               </div>
             ))}
@@ -653,7 +635,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 12: MyFACTION */}
-      <section id="myfaction" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="palette-house" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myfaction.title}</h2>
@@ -671,7 +653,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 13: Locker Codes */}
-      <section id="locker-codes" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="roommates" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
@@ -686,11 +668,11 @@ export default function HomePage() {
                 <div className="flex items-center justify-between mb-4">
                   <div className="font-mono text-2xl font-bebas text-gold-gradient">{codeItem.code}</div>
                   <button
-                    onClick={() => navigator.clipboard.writeText(codeItem.code)}
+                    onClick={() => copyToClipboard(codeItem.code)}
                     className="group px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme))] text-white hover:bg-[hsl(var(--nav-theme)/0.9)] transition-all duration-300 flex items-center gap-2 hover:shadow-[0_4px_16px_hsl(var(--nav-theme)/0.4)]"
                   >
                     <Copy className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                    Copy
+                    {copiedPath === codeItem.code ? 'Copied' : 'Copy'}
                   </button>
                 </div>
                 <div className="text-sm text-muted-foreground mb-2">Expires: {codeItem.expires}</div>
@@ -706,7 +688,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="mt-8 p-6 rounded-xl bg-muted/50 border-2 border-border">
-            <h4 className="font-bebas text-xl mb-4">How to Redeem</h4>
+            <h4 className="font-bebas text-xl mb-4">Setup Steps</h4>
             <ol className="space-y-2">
               {t.modules.lockerCodes.howToRedeem.map((step: string, i: number) => (
                 <li key={i} className="flex items-start gap-3">
@@ -727,7 +709,7 @@ export default function HomePage() {
       />
 
       {/* Module 14: PC Requirements */}
-      <section id="pc-requirements" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="mii-exchange" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
@@ -738,7 +720,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">Minimum</h3>
+              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">Basic Setup</h3>
               <dl className="space-y-3">
                 <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.os}</dd></div>
                 <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.processor}</dd></div>
@@ -748,8 +730,8 @@ export default function HomePage() {
               </dl>
             </div>
             <div className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold relative overflow-hidden">
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">RECOMMENDED</div>
-              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">Recommended</h3>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">BEST PRACTICE</div>
+              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">Optimized Setup</h3>
               <dl className="space-y-3">
                 <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.os}</dd></div>
                 <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.processor}</dd></div>
@@ -763,7 +745,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 15: Arenas */}
-      <section id="arenas" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="price-platforms" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.arenas.title}</h2>
@@ -785,7 +767,7 @@ export default function HomePage() {
       </section>
 
       {/* Module 16: DLC & Unlockables */}
-      <section id="dlc-unlockables" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="trailer-direct" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.dlcUnlockables.title}</h2>
@@ -874,73 +856,81 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <Link
-                    href="https://www.reddit.com/r/tomodachilife/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
-                  >
-                    {t.footer.reddit}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.youtube.com/watch?v=_xY0XuGOWJs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
-                  >
-                    {t.footer.youtube}
-                  </Link>
-                </li>
-                <li>
-                  <Link
+                  <a
                     href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.reddit}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=_xY0XuGOWJs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.youtube}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.nintendo.com/us/whatsnew/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.instagram}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
 
-            {/* Legal - Internal Routes Only */}
+            {/* Legal - Official External Links */}
             <div>
               <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link
-                    href="/about"
+                  <a
+                    href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="/privacy-policy"
+                  <a
+                    href="https://www.nintendo.com/us/whatsnew/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="/terms-of-service"
+                  <a
+                    href="https://www.youtube.com/watch?v=_xY0XuGOWJs"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="/copyright"
+                  <a
+                    href="https://www.nintendo.com/us/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

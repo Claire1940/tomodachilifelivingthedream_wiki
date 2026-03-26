@@ -55,1213 +55,1080 @@
     "description": "Watch the official overview trailer and key scenes for Mii creation, island life, relationships, and customization."
   },
   "tools": {
-    "title": "WWE 2K26",
-    "titleHighlight": "Quick Navigation",
-    "subtitle": "Jump to any section below",
+    "title": "Tomodachi Life Living The Dream",
+    "titleHighlight": "Homepage Navigator",
+    "subtitle": "Jump to every Tomodachi Life Living The Dream module below",
     "cards": [
       {
         "icon": "Calendar",
-        "title": "Release & Editions",
-        "description": "Compare all 4 editions and release dates"
+        "title": "Tomodachi Life Living The Dream Release Date",
+        "description": "Launch timeline, platforms, and version status"
+      },
+      {
+        "icon": "Download",
+        "title": "Tomodachi Life Living The Dream Demo",
+        "description": "Download steps, demo scope, and carry-over data"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Tomodachi Life Living The Dream Beginner Guide",
+        "description": "First-day checklist to start your island smoothly"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Tomodachi Life Living The Dream New Features",
+        "description": "Face Paint, Quik Build, and more new systems"
       },
       {
         "icon": "Users",
-        "title": "Roster",
-        "description": "Browse 400+ playable Superstars"
+        "title": "Tomodachi Life Living The Dream Mii Creator",
+        "description": "Build residents with advanced look and identity tools"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Ratings",
-        "description": "Top-rated Superstars rankings"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controls",
-        "description": "PS5, Xbox, and PC controls"
-      },
-      {
-        "icon": "Flame",
-        "title": "New Match Types",
-        "description": "4 new match types debut"
-      },
-      {
-        "icon": "Film",
-        "title": "Showcase",
-        "description": "CM Punk's legendary career"
-      },
-      {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Manage your WWE brand"
-      },
-      {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Create your Superstar story"
-      },
-      {
-        "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "Control the WWE Universe"
-      },
-      {
-        "icon": "Palette",
-        "title": "Community Creations",
-        "description": "Download and share creations"
+        "icon": "MessageCircle",
+        "title": "Tomodachi Life Living The Dream Relationships",
+        "description": "Friendship, romance, conflicts, and roommate life"
       },
       {
         "icon": "Map",
-        "title": "The Island",
-        "description": "Faction-based battle mode"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Build your dream faction"
-      },
-      {
-        "icon": "Gift",
-        "title": "Locker Codes",
-        "description": "Active codes for rewards"
-      },
-      {
-        "icon": "Monitor",
-        "title": "PC Requirements",
-        "description": "Minimum and recommended specs"
+        "title": "Tomodachi Life Living The Dream Island Builder",
+        "description": "Landscape editing, placement plans, and districts"
       },
       {
         "icon": "Building",
-        "title": "Arenas",
-        "description": "40+ iconic venues"
+        "title": "Tomodachi Life Living The Dream Shops and Facilities",
+        "description": "Every major shop and utility building in one place"
       },
       {
         "icon": "Package",
-        "title": "DLC & Unlockables",
-        "description": "Season Pass and content roadmap"
+        "title": "Tomodachi Life Living The Dream Food Guide",
+        "description": "Daily food loops, favorites, and feeding strategy"
+      },
+      {
+        "icon": "Palette",
+        "title": "Tomodachi Life Living The Dream Outfits",
+        "description": "Fashion picks, custom clothing, and style curation"
+      },
+      {
+        "icon": "Home",
+        "title": "Tomodachi Life Living The Dream Room Interiors",
+        "description": "Room themes, furniture plans, and atmosphere design"
+      },
+      {
+        "icon": "Settings",
+        "title": "Tomodachi Life Living The Dream Palette House",
+        "description": "Create custom items, pets, foods, and decorations"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Tomodachi Life Living The Dream Roommates",
+        "description": "Shared-home setups and social interaction outcomes"
+      },
+      {
+        "icon": "Globe",
+        "title": "Tomodachi Life Living The Dream Mii Exchange",
+        "description": "Local sharing workflow for Miis and custom items"
+      },
+      {
+        "icon": "Monitor",
+        "title": "Tomodachi Life Living The Dream Price and Platforms",
+        "description": "Compare pricing, language support, and file size"
+      },
+      {
+        "icon": "Film",
+        "title": "Tomodachi Life Living The Dream Trailer and Direct",
+        "description": "Overview trailer, Nintendo Direct, and key recaps"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
+      "title": "Tomodachi Life Living The Dream Release Date",
+      "subtitle": "Track launch timing, platform details, and official availability",
       "quickFacts": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
+          "label": "Global Release",
+          "value": "April 16, 2026"
         },
         {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "label": "Primary Platform",
+          "value": "Nintendo Switch"
         },
         {
-          "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "Players",
+          "value": "Up to 2"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "label": "Current State",
+          "value": "Demo Available"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
+          "name": "Tomodachi Life Living The Dream Digital Edition",
+          "price": "$59.99",
+          "releaseDate": "April 16, 2026",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Nintendo Switch"
           ],
           "includes": [
-            "WWE 2K26 base game"
+            "Tomodachi Life Living The Dream base game",
+            "Main island simulation systems",
+            "Mii creator and relationship systems"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Tomodachi Life Living The Dream Demo",
+          "price": "$0.00",
+          "releaseDate": "Available Now",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Nintendo Switch"
           ],
           "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
+            "Playable early-life island experience",
+            "Mii setup and early relationship flow",
+            "Save transfer to full game in supported regions"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Tomodachi Life Living The Dream Store Version",
+          "price": "By Region",
+          "releaseDate": "April 16, 2026",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Nintendo Switch eShop"
           ],
           "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
+            "Regional language packs",
+            "Official Nintendo support channels",
+            "Switch account-based access"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Tomodachi Life Living The Dream Compatible Setup",
+          "price": "Hardware Required",
+          "releaseDate": "Launch Window",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Nintendo Switch Family"
           ],
           "includes": [
-            "WWE 2K26 base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
+            "Docked and handheld play support",
+            "Local wireless sharing features",
+            "Cross-region content reading in supported languages"
           ]
         }
       ],
       "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+        "Release date and demo status are clear from official storefront channels",
+        "Up to 2 players supports social local play loops",
+        "This module is optimized for date-focused and launch-focused searches"
       ]
     },
     "roster": {
-      "title": "WWE 2K26 Roster",
-      "subtitle": "Browse 400+ playable Superstars and Legends",
+      "title": "Tomodachi Life Living The Dream Demo",
+      "subtitle": "Understand what the demo includes and how to carry progress",
       "stats": [
         {
-          "label": "Total Superstars",
-          "value": "400+"
+          "label": "Demo Cost",
+          "value": "Free"
         },
         {
-          "label": "New Additions",
-          "value": "50+"
+          "label": "Progress Transfer",
+          "value": "Supported"
         },
         {
-          "label": "Roster Scope",
-          "value": "Largest in franchise history"
+          "label": "Main Focus",
+          "value": "Create + Early Island Flow"
         }
       ],
       "categories": [
         {
-          "name": "Current Stars",
+          "name": "Download Path",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Open Nintendo eShop",
+            "Search Tomodachi Life Living The Dream",
+            "Select Demo and start download",
+            "Launch with your Nintendo account"
           ]
         },
         {
-          "name": "Legends",
+          "name": "Demo Activities",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "Create and name your first residents",
+            "Start food, gift, and mood routines",
+            "Trigger early friendship interactions",
+            "Preview island customization options"
           ]
         },
         {
-          "name": "New Era Highlights",
+          "name": "Carry-Over Checklist",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Use the same account for full version",
+            "Keep demo save data intact",
+            "Confirm region transfer support",
+            "Import progress on first full-game boot"
           ]
         },
         {
-          "name": "Season 1 Spotlight",
+          "name": "Best First Session",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "Create at least 3 Miis",
+            "Test food reactions for each resident",
+            "Try one room customization pass",
+            "Set one target friendship pair"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "WWE 2K26 Ratings",
-      "subtitle": "Top-rated Superstars rankings",
+      "title": "Tomodachi Life Living The Dream Beginner Guide",
+      "subtitle": "A practical first-week setup plan for steady island progress",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "Start with 3-5 Miis for stable activity loops",
+          "rating": 10
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "Check resident thought bubbles every login",
+          "rating": 9
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "Feed Miis before gifting for better mood balance",
+          "rating": 9
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "Use daily routines to avoid idle islands",
+          "rating": 8
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "Group compatible residents nearby",
+          "rating": 8
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
+          "name": "Track relationship changes after each event",
+          "rating": 8
         },
         {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
+          "name": "Prioritize comfort upgrades before expansion",
+          "rating": 7
         },
         {
-          "name": "The Rock",
-          "rating": 95
+          "name": "Use local sharing for inspiration builds",
+          "rating": 7
         },
         {
-          "name": "Cody Rhodes",
-          "rating": 95
+          "name": "Test voice/personality combinations early",
+          "rating": 7
         },
         {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "Document your favorite item combos",
+          "rating": 6
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "Morning: check requests and quick needs",
+          "rating": 10
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "Midday: run food and outfit refresh",
+          "rating": 9
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "Evening: trigger new introductions",
+          "rating": 9
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "Rotate room themes by personality",
+          "rating": 8
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "Keep one social wildcard resident",
+          "rating": 8
         },
         {
-          "name": "Naomi",
-          "rating": 92
+          "name": "Use Quik Build to improve hangout density",
+          "rating": 8
         },
         {
-          "name": "Stephanie Vaquer",
-          "rating": 92
+          "name": "Test palette-made gifts on different Miis",
+          "rating": 7
         },
         {
-          "name": "Liv Morgan",
-          "rating": 92
+          "name": "Review shop inventory every cycle",
+          "rating": 7
         },
         {
-          "name": "AJ Lee '15",
-          "rating": 92
+          "name": "Maintain one low-cost daily checklist",
+          "rating": 7
         },
         {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "Archive notable island stories for planning",
+          "rating": 6
         }
       ],
       "highlights": [
-        "Men's top rating: 97",
-        "Women's top rating: 96",
-        "Ratings blend current stars, legends, and alternate-era personas"
+        "Beginner module focuses on repeatable habits over one-time tips",
+        "Two ranked columns represent setup priorities and daily loop priorities",
+        "All tips are structured for quick scanning on mobile"
       ]
     },
     "controls": {
-      "title": "WWE 2K26 Controls",
-      "subtitle": "Master the core controls for PS5, Xbox, and PC",
+      "title": "Tomodachi Life Living The Dream New Features",
+      "subtitle": "Core new systems confirmed in official previews and store pages",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "Creation Systems",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold L2 + Left Stick"
+              "action": "Face Paint",
+              "input": "Stamp and draw custom facial details"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "O"
+              "action": "Two-Tone Hair",
+              "input": "Blend dual colors for stronger identity"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "Square"
+              "action": "Expanded Face Parts",
+              "input": "More options for eyes, ears, makeup, and hair"
             },
             {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "X"
-            },
-            {
-              "action": "Irish Whip",
-              "input": "O (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "R2 + Square"
-            },
-            {
-              "action": "Finisher",
-              "input": "R2 + X"
-            },
-            {
-              "action": "Submission",
-              "input": "R2 + O"
-            },
-            {
-              "action": "Payback",
-              "input": "R2 + Triangle"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Triangle"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Triangle"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "L1"
+              "action": "Personality Tuning",
+              "input": "Adjust quirks, tone, and social energy"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "Island Systems",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold LT + Left Stick"
+              "action": "Quik Build",
+              "input": "Place benches, trees, and amenity objects quickly"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "B"
+              "action": "Facility Movement",
+              "input": "Reposition homes and shops by layout goals"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "X"
+              "action": "Ground Pattern Design",
+              "input": "Apply tile patterns to outdoor zones"
             },
             {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "A"
-            },
-            {
-              "action": "Irish Whip",
-              "input": "B (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "RT + X"
-            },
-            {
-              "action": "Finisher",
-              "input": "RT + A"
-            },
-            {
-              "action": "Submission",
-              "input": "RT + B"
-            },
-            {
-              "action": "Payback",
-              "input": "RT + Y"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Y"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Y"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "LB"
+              "action": "Palette House",
+              "input": "Create custom items, pets, and decorative assets"
             }
           ]
         }
       ],
       "tips": [
-        "Combos chain Light and Heavy Strikes together",
-        "Breakers use the same button your opponent presses",
-        "Timed kick-out minigame uses Right Stick Up",
-        "Special Referee actions include count, rope break, warnings, and ejections"
+        "Start with creation tools first, then optimize island layout",
+        "Use Quik Build to increase interaction hotspots",
+        "Pair room style updates with personality-based residents",
+        "Treat Palette House as both cosmetic and social progression"
       ]
     },
     "matchTypes": {
-      "title": "WWE 2K26 New Match Types",
-      "subtitle": "Experience 4 new match types and expanded gameplay",
+      "title": "Tomodachi Life Living The Dream Mii Creator",
+      "subtitle": "Step-by-step Mii building flow from setup to final resident identity",
       "quickFacts": [
         {
-          "label": "New Match Types",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "label": "Creation Paths",
+          "value": "Get Help + From Scratch"
         },
         {
-          "label": "New Brawl Space",
-          "value": "Scrapyard Brawl"
+          "label": "Advanced Tool",
+          "value": "Face Paint"
         },
         {
-          "label": "Mode Addition",
-          "value": "Quick Swap in MyFACTION"
+          "label": "Identity Controls",
+          "value": "Voice, Height, Body Type, Personality"
         }
       ],
       "matches": [
         {
-          "name": "I Quit",
-          "description": "Force your opponent to say 'I Quit' to win this brutal showdown"
+          "name": "Starting Point",
+          "description": "Begin with guided questions or manually choose every Mii part."
         },
         {
-          "name": "Inferno",
-          "description": "Light your opponent on fire to secure victory in this scorched-earth match"
+          "name": "Face and Style",
+          "description": "Fine-tune eyes, brows, nose, hair, glasses, and additional face detail."
         },
         {
-          "name": "Dumpster",
-          "description": "Beat down your opponent and throw them into the dumpster to win"
+          "name": "Advanced Tools",
+          "description": "Use Face Paint, zoom tools, and grid controls for unique visual identity."
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Best-of-three challenge where each fall uses a different match type"
+          "name": "Body and Identity",
+          "description": "Set name, body type, voice, and behavior profile for each resident."
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "New brawl environment set in The Island's wasteland of wreckage"
+          "name": "Final Resident",
+          "description": "Build family, friends, originals, or fictional characters to shape island stories."
         }
       ],
       "newSystems": [
-        "Expanded Crowd Combat",
-        "Stackable Tables",
-        "Thumbtacks",
-        "Surprise Attackers",
-        "Barricade Combat",
-        "Quick Swap team knockout action"
+        "Guided creation and manual creation share one deep customization flow",
+        "Face Paint expands beyond preset-only workflows",
+        "Identity settings meaningfully influence social outcomes"
       ]
     },
     "showcase": {
-      "title": "WWE 2K26 Showcase",
-      "subtitle": "Relive CM Punk's greatest rivalries",
+      "title": "Tomodachi Life Living The Dream Relationships",
+      "subtitle": "How introductions, romance rules, and roommate life drive story moments",
       "quickFacts": [
         {
-          "label": "Cover Star",
-          "value": "CM Punk"
+          "label": "Core Loop",
+          "value": "Meet, Bond, Conflict, Recover"
         },
         {
-          "label": "Timeline",
-          "value": "25+ years of WWE history"
+          "label": "Roommate Cap",
+          "value": "Up to 8 in shared homes"
         },
         {
-          "label": "Match Types",
-          "value": "Historical, Fantasy, What If"
+          "label": "Pairing Support",
+          "value": "Flexible inclusive settings"
         }
       ],
       "moments": [
         {
-          "title": "Opening Match",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
+          "title": "Introductions You Can Trigger",
+          "description": "Manually place two residents together to force first contact and start a relationship path."
         },
         {
-          "title": "Historical Matches",
-          "description": "Faithful recreations with authentic arenas and match objectives"
+          "title": "Friendship Progression",
+          "description": "Residents can shift from acquaintances to closer bonds through repeated interactions."
         },
         {
-          "title": "Fantasy Warfare",
-          "description": "Dream matchups against legends who influenced Punk's journey"
+          "title": "Drama and Recovery",
+          "description": "Conflicts, crushes, and emotional swings create long-term social narratives."
         },
         {
-          "title": "What If Matches",
-          "description": "Alternate timeline scenarios exploring different career paths"
+          "title": "Real-Life Relationship Rules",
+          "description": "Predefined real-world links change which social paths are available."
+        },
+        {
+          "title": "Shared Home Dynamics",
+          "description": "Roommate combinations produce more frequent comedy, friction, and event variety."
         }
       ],
       "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Face 20 consecutive opponents as CM Punk or AJ Lee to unlock all Showcase rewards at once"
+        "name": "Relationship Manager",
+        "description": "Use intentional introductions, housing choices, and preference setup to steer island social outcomes."
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
-      "subtitle": "Run your brand with deeper booking and strategy",
+      "title": "Tomodachi Life Living The Dream Island Builder",
+      "subtitle": "Plan land, facilities, and outdoor amenities with clear system value",
       "quickFacts": [
         {
-          "label": "Season Length",
-          "value": "50 weeks"
+          "label": "Landscape Control",
+          "value": "Expand and reshape island space"
         },
         {
-          "label": "Starting Budgets",
-          "value": "$3M - $7M"
+          "label": "Placement Control",
+          "value": "Move homes and facilities"
         },
         {
-          "label": "Avg Roster Size",
-          "value": "20-35 Superstars"
+          "label": "Quick Decor",
+          "value": "Quik Build amenities"
         },
         {
-          "label": "New Difficulty",
-          "value": "Immortal"
+          "label": "Creation Hub",
+          "value": "Palette House custom assets"
         }
       ],
       "features": [
         {
-          "title": "Extended Seasons",
-          "description": "Default season length now 50 weeks with flexible budget options"
+          "title": "Shape the Landscape",
+          "description": "Adjust terrain and district spacing around resident activity patterns."
         },
         {
-          "title": "Expanded Match Types",
-          "description": "Book 5-way, 6-way, 8-way, triple threat tag, fatal four way tag, and handicap matches"
+          "title": "Move Homes and Facilities",
+          "description": "Reposition major buildings to improve route flow and social density."
         },
         {
-          "title": "New Match Rules",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "title": "Use Quik Build Amenities",
+          "description": "Add benches, trees, and utility objects to increase island livability."
         },
         {
-          "title": "Power Card Trading",
-          "description": "Trade Power Cards during trade weeks with option to disable Power Card Store"
+          "title": "Design Interiors and Exteriors",
+          "description": "Coordinate room themes with exterior styling for stronger identity."
         },
         {
-          "title": "Intergender Matches",
-          "description": "Book intergender matches with added booking cost"
+          "title": "Palette House Workflows",
+          "description": "Craft original decorative items and giftable objects for long-term personalization."
         }
       ],
       "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
+        "Residential Core",
+        "Shop District",
+        "Beachfront Leisure Zone",
+        "Community Event Area",
+        "Photo Spot Cluster",
+        "Amenity Corridor"
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
-      "subtitle": "Fight your way back in The Comeback",
+      "title": "Tomodachi Life Living The Dream Shops and Facilities",
+      "subtitle": "A complete index of named locations and what each one does",
       "quickFacts": [
         {
-          "label": "Story Name",
-          "value": "The Comeback"
+          "label": "Economy Hub",
+          "value": "Wishing Fountain"
         },
         {
-          "label": "Main Character",
-          "value": "The Archetype"
+          "label": "Food Hub",
+          "value": "Fresh Kingdom Food Mart"
         },
         {
-          "label": "Theme",
-          "value": "Return after 2-year absence"
+          "label": "Style Hub",
+          "value": "Where & Wear Clothing"
         }
       ],
       "paths": [
         {
-          "name": "Traditional Route",
-          "description": "Earn opportunities the right way and work back into the title picture"
+          "name": "Daily Loop Path",
+          "description": "Check fountain, shop food, then handle resident requests."
         },
         {
-          "name": "Ruthless Route",
-          "description": "Cut corners and fast-track the comeback through aggressive tactics"
+          "name": "Style Loop Path",
+          "description": "Visit clothing and room facilities before relationship events."
         }
       ],
       "divisions": [
         {
-          "name": "Men's Division",
-          "goal": "Earn another shot at WWE Champion Bron Breakker",
+          "name": "Core Service Facilities",
+          "goal": "Handle routine needs and quality-of-life upgrades",
           "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
+            "Wishing Fountain",
+            "Fresh Kingdom Food Mart",
+            "Where & Wear Clothing",
+            "T&C Reno Home Supply"
           ]
         },
         {
-          "name": "Women's Division",
-          "goal": "Chase another showdown with WWE Women's Champion Jordynne Grace",
+          "name": "Exploration and Event Facilities",
+          "goal": "Drive novelty, stories, and snapshots",
           "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
+            "Quik Build Amenities",
+            "Marketplace",
+            "Foto-Tomo Photography",
+            "Mii News Station"
           ]
         }
       ],
       "features": [
-        "Branching dialogue shapes story progression",
-        "WWE press conferences with player choice responses",
-        "Major final decision affects championship reign"
+        "Facility loops are one of the easiest ways to keep islands active",
+        "Marketplace rotation supports repeat visits",
+        "Photo and news systems create ongoing event content"
       ],
       "rewards": [
-        "Arenas",
-        "Championships",
-        "CAS Parts",
-        "Playable characters",
-        "Weapons",
-        "Paybacks",
-        "MyFACTION content"
+        "Faster daily management",
+        "Stronger resident satisfaction",
+        "Better screenshot moments",
+        "More consistent island pacing"
       ]
     },
     "universeMode": {
-      "title": "WWE 2K26 Universe Mode",
-      "subtitle": "Build your dream WWE calendar with deeper control",
+      "title": "Tomodachi Life Living The Dream Food Guide",
+      "subtitle": "Feed smarter by tracking favorites, shop loops, and mood outcomes",
       "quickFacts": [
         {
-          "label": "Setup Tool",
-          "value": "Universe Wizard"
+          "label": "Main Source",
+          "value": "Fresh Kingdom Food Mart"
         },
         {
-          "label": "Max Draft Events",
-          "value": "8"
+          "label": "Primary Goal",
+          "value": "Mood and preference tuning"
         },
         {
-          "label": "Titles Per Show",
-          "value": "Up to 8"
+          "label": "Cadence",
+          "value": "Check inventory each cycle"
         },
         {
-          "label": "MITB Slots",
-          "value": "2 per show"
+          "label": "Best Practice",
+          "value": "Match food to resident profile"
         }
       ],
       "features": [
         {
-          "title": "Universe Wizard",
-          "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
+          "title": "Daily Stock Rotation",
+          "description": "Shop updates encourage frequent checks and better item planning."
         },
         {
-          "title": "WWE Draft",
-          "description": "Create and schedule Draft events where shows trade Superstars"
+          "title": "Favorite Discovery",
+          "description": "Track positive reactions to build each resident's reliable food set."
         },
         {
-          "title": "MITB Cash-Ins",
-          "description": "Briefcases can be cashed in on any eligible title on a show"
+          "title": "Mood Stabilization",
+          "description": "Use food strategically before social interactions and gifting sessions."
         },
         {
-          "title": "Enhanced Promos",
-          "description": "Self-Promos, Call-Outs, Interrupts, Open Challenges, Post-Match Interviews"
+          "title": "Budget Routing",
+          "description": "Split spending between essentials and experimental food picks."
         },
         {
-          "title": "Matchmaking Sliders",
-          "description": "Tune match card sorting with bonuses for titles, rivalries, and match types"
+          "title": "Long-Term Cataloging",
+          "description": "Record outcomes to reduce random feeding and improve efficiency."
         }
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 Community Creations",
-      "subtitle": "Create bigger and more detailed custom content",
+      "title": "Tomodachi Life Living The Dream Outfits",
+      "subtitle": "Build a strong fashion library with daily refresh and custom looks",
       "quickFacts": [
         {
-          "label": "CAS Slots",
-          "value": "200"
+          "label": "Main Shop",
+          "value": "Where & Wear Clothing"
         },
         {
-          "label": "Image Slots",
-          "value": "2,000"
+          "label": "Use Cases",
+          "value": "Identity, events, and social themes"
         },
         {
-          "label": "Body Templates",
-          "value": "40+"
+          "label": "Workflow",
+          "value": "Daily refresh + wardrobe plans"
         },
         {
-          "label": "Layer Split",
-          "value": "60 attire + 40 head/body"
+          "label": "Synergy",
+          "value": "Matches room and personality setups"
         }
       ],
       "sections": [
         {
-          "title": "Create-a-Superstar",
-          "description": "Body morphing and improved face morphing with 40+ body templates"
+          "title": "Daily Outfit Rotation",
+          "description": "Review new stock frequently to keep resident looks fresh."
         },
         {
-          "title": "Hair and Body Paint",
-          "description": "Two-tone hair color blending and Joy-Con 2 mouse controls for body paint"
+          "title": "Theme-Based Wardrobes",
+          "description": "Create casual, formal, and novelty sets for story variety."
         },
         {
-          "title": "Create-an-Arena",
-          "description": "LED barricades, new announcer tables, expanded ring mat and apron options"
+          "title": "Custom Design Direction",
+          "description": "Use custom clothing to make specific Miis instantly recognizable."
         },
         {
-          "title": "Create-an-Image",
-          "description": "Image uploader limit doubled from 1,000 to 2,000 slots"
+          "title": "Event Styling",
+          "description": "Coordinate clothing with celebrations, photo sessions, and shared moments."
         },
         {
-          "title": "Create-a-Championship",
-          "description": "Expanded parts and refreshed building interface"
+          "title": "Resident Matching",
+          "description": "Align styles with personality and relationship roles for better immersion."
         },
         {
-          "title": "Create-an-Entrance",
-          "description": "Advanced timeline editing for champion, MITB, and stable entrances (Quad/Quint)"
+          "title": "Collection Strategy",
+          "description": "Maintain a balanced wardrobe catalog for ongoing island scenarios."
         }
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 The Island",
-      "subtitle": "Choose an Order and fight for control",
+      "title": "Tomodachi Life Living The Dream Room Interiors",
+      "subtitle": "Design homes that reinforce identity, comfort, and social rhythm",
       "quickFacts": [
         {
-          "label": "Factions",
-          "value": "3 Orders"
+          "label": "Main Facility",
+          "value": "T&C Reno Home Supply"
         },
         {
-          "label": "Story Chapters",
-          "value": "3"
+          "label": "Core Elements",
+          "value": "Furniture, wallpaper, flooring"
         },
         {
-          "label": "Prestige Tiers",
-          "value": "4"
+          "label": "Design Goal",
+          "value": "Resident comfort and style fit"
         },
         {
-          "label": "New PvP",
-          "value": "2v2 PvP"
+          "label": "Planning",
+          "value": "Room themes by personality"
         }
       ],
       "orders": [
         {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
+          "name": "Minimal Comfort",
+          "leader": "Starter Residents",
+          "description": "Clean layouts for daily utility and easy maintenance."
         },
         {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
+          "name": "Story-Driven Themes",
+          "leader": "Social Residents",
+          "description": "Interior style reflects relationship role and character identity."
         },
         {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
+          "name": "Collection Showrooms",
+          "leader": "Collector Residents",
+          "description": "Display rare items and decorative sets in curated spaces."
         }
       ],
       "prestige": [
         {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
+          "tier": "Starter",
+          "ovrRange": "Basic furniture + one visual theme"
         },
         {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
+          "tier": "Comfort",
+          "ovrRange": "Consistent styling + mood-friendly setup"
         },
         {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
+          "tier": "Signature",
+          "ovrRange": "Distinct room identity for each resident"
         },
         {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "tier": "Showcase",
+          "ovrRange": "High-expression interiors for photos and events"
         }
       ],
       "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
+        "Interiors are a major lever for both visual quality and immersion",
+        "Room planning works best when tied to resident personality",
+        "Consistent room updates improve long-term island storytelling"
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
-      "subtitle": "Build stronger lineups with chemistry and Quick Swap",
+      "title": "Tomodachi Life Living The Dream Palette House",
+      "subtitle": "Create original island assets for gifting, decorating, and sharing",
       "quickFacts": [
         {
-          "label": "Lineup Size",
-          "value": "4 Superstars"
+          "label": "Creation Scope",
+          "value": "Food, clothing, pets, structures"
         },
         {
-          "label": "Chemistry Traits",
-          "value": "60 across 10 categories"
+          "label": "Usage",
+          "value": "Decoration + Gifts"
         },
         {
-          "label": "New Match Type",
-          "value": "Quick Swap"
+          "label": "Sharing",
+          "value": "Local wireless supported"
         },
         {
-          "label": "Launch Card Sets",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+          "label": "Value",
+          "value": "Long-term island identity"
         }
       ],
       "features": [
         {
-          "title": "Team Chemistry",
-          "description": "Positive and negative reactions affect Chemistry Score; Managers reduce negatives"
+          "title": "Custom Food and Drinks",
+          "description": "Build original consumables for playful resident reactions."
         },
         {
-          "title": "Intergender Support",
-          "description": "Build mixed-gender four-person lineups"
+          "title": "Custom Clothing Pieces",
+          "description": "Design visual identity assets unavailable in default inventory."
         },
         {
-          "title": "Quick Swap",
-          "description": "Swap teammates mid-match, share Signature/Finisher slots, win by knockout"
+          "title": "Custom Pets and Objects",
+          "description": "Add personality-driven props to homes and public spaces."
         },
         {
-          "title": "Faction Wars",
-          "description": "Deck-based progression starting with Crowd's Deck"
+          "title": "House Exterior Variants",
+          "description": "Create distinctive neighborhood silhouettes and theme zones."
         },
         {
-          "title": "World Tour",
-          "description": "Rewards include Personas, MFP, Arc Cards, and packs across global locations"
+          "title": "Gift Pipeline",
+          "description": "Turn creations into resident gifts and local exchange materials."
         }
       ]
     },
     "lockerCodes": {
-      "title": "WWE 2K26 Locker Codes",
-      "subtitle": "Redeem active codes for MyFACTION rewards",
+      "title": "Tomodachi Life Living The Dream Roommates",
+      "subtitle": "Set up shared homes and manage high-interaction resident groups",
       "quickFacts": [
         {
-          "label": "Mode",
-          "value": "MyFACTION"
+          "label": "Shared Home Cap",
+          "value": "Up to 8 residents"
         },
         {
-          "label": "Active Code",
-          "value": "BSTINTWRLD26"
+          "label": "Main Benefit",
+          "value": "More social interactions"
         },
         {
-          "label": "Expires",
-          "value": "March 13, 2026"
+          "label": "Best Use",
+          "value": "Story variety and daily events"
         }
       ],
       "codes": [
         {
-          "code": "BSTINTWRLD26",
+          "code": "PAIR-BALANCED-HOUSE",
           "rewards": [
-            "1x Aftershock Series I Basic Pack",
-            "1x Momentum Series I Basic Pack"
+            "Mix calm and energetic personality types",
+            "Place likely friends in nearby rooms",
+            "Avoid stacking incompatible residents at launch"
           ],
-          "expires": "March 13, 2026"
+          "expires": "Always Relevant"
+        },
+        {
+          "code": "SOCIAL-HUB-SETUP",
+          "rewards": [
+            "Add shared amenities near roommate zones",
+            "Use regular check-ins to catch disputes early",
+            "Trigger intros between isolated residents"
+          ],
+          "expires": "Always Relevant"
+        },
+        {
+          "code": "EVENT-DRIVEN-LAYOUT",
+          "rewards": [
+            "Schedule outfit and food updates before social events",
+            "Keep one wildcard resident for new story branches",
+            "Log roommate outcomes for future reshuffles"
+          ],
+          "expires": "Always Relevant"
         }
       ],
       "howToRedeem": [
-        "Open WWE 2K26 from the main menu",
-        "Select Locker Codes",
-        "Enter the code exactly as shown",
-        "Redeem and open your packs in MyFACTION"
+        "Choose a home intended for multi-resident activity",
+        "Assign residents with compatible baseline traits",
+        "Observe interactions and adjust nearby amenities",
+        "Rebalance households when conflict rate gets too high"
       ]
     },
     "pcRequirements": {
-      "title": "WWE 2K26 PC Requirements",
-      "subtitle": "Check if your PC can run WWE 2K26",
+      "title": "Tomodachi Life Living The Dream Mii Exchange",
+      "subtitle": "How local sharing works for Miis and selected custom creations",
       "quickFacts": [
         {
-          "label": "OS",
-          "value": "Windows 10 64-bit"
+          "label": "Connection Type",
+          "value": "Local Wireless"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "label": "Share Targets",
+          "value": "Miis and selected custom assets"
         },
         {
-          "label": "Storage",
-          "value": "120 GB"
+          "label": "Best Scenario",
+          "value": "Nearby multiplayer sessions"
         },
         {
-          "label": "CPU Note",
-          "value": "AVX2 and F16C support required"
+          "label": "Purpose",
+          "value": "Expand island variety quickly"
         }
       ],
       "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 or AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 or AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "GPU must have at least 6 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Nintendo Switch local wireless enabled",
+        "processor": "Both players open compatible game versions",
+        "memory": "Available save slots for imported content",
+        "graphics": "N/A",
+        "directX": "N/A",
+        "storage": "Enough save space for received data",
+        "notes": "Use nearby devices and verify region compatibility when needed"
       },
       "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 or AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 or AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "At least 12 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Updated game versions on all systems",
+        "processor": "Stable local session with both players ready",
+        "memory": "Organized local catalog for incoming Miis/items",
+        "graphics": "N/A",
+        "directX": "N/A",
+        "storage": "Keep room for iterative sharing sessions",
+        "notes": "Plan themed sharing sessions for faster island expansion"
       }
     },
     "arenas": {
-      "title": "WWE 2K26 Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
+      "title": "Tomodachi Life Living The Dream Price and Platforms",
+      "subtitle": "Compare purchasing options and platform support details",
       "quickFacts": [
         {
-          "label": "Arena Count",
-          "value": "40+"
+          "label": "Storefront",
+          "value": "Nintendo eShop"
         },
         {
-          "label": "New Venues",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "label": "Platform",
+          "value": "Nintendo Switch"
         },
         {
-          "label": "Classic Highlights",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "label": "Players",
+          "value": "Up to 2"
         }
       ],
       "categories": [
         {
-          "name": "Current Weekly Shows",
+          "name": "Pricing Overview",
           "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
+            "Base game pricing varies by region",
+            "Demo is free",
+            "Use official store page for your local currency",
+            "Watch regional promotions during launch windows"
           ]
         },
         {
-          "name": "Premium Live Events",
+          "name": "Platform and Play Modes",
           "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
+            "Nintendo Switch support",
+            "Handheld and docked usage",
+            "Local wireless sharing features",
+            "Account-based purchase and download flow"
           ]
         },
         {
-          "name": "Classic Arenas",
+          "name": "Language and Accessibility",
           "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Multiple language support",
+            "Regional storefront localization",
+            "Readable UI for quick daily management",
+            "Icon-driven systems for mobile-like pacing"
           ]
         },
         {
-          "name": "Original and Brawl Spaces",
+          "name": "Buyer Checklist",
           "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
+            "Confirm region and language expectations",
+            "Check demo transfer availability",
+            "Verify local sharing goals",
+            "Track launch-date updates from Nintendo"
           ]
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLC & Unlockables",
-      "subtitle": "Track every major post-launch reward path",
+      "title": "Tomodachi Life Living The Dream Trailer and Direct",
+      "subtitle": "Key official videos and recap checkpoints in timeline order",
       "quickFacts": [
         {
-          "label": "Ringside Pass Seasons",
-          "value": "6"
+          "label": "Overview Trailer",
+          "value": "Official Nintendo upload"
         },
         {
-          "label": "Tiers Per Season",
-          "value": "40"
+          "label": "Direct Coverage",
+          "value": "Nintendo Direct feature"
         },
         {
-          "label": "Free Track Rewards",
-          "value": "60"
+          "label": "Launch Messaging",
+          "value": "Feature-focused updates"
         },
         {
-          "label": "Total Rewards",
-          "value": "120"
+          "label": "Best Use",
+          "value": "Recap + onboarding"
         }
       ],
       "seasons": [
         {
-          "season": "Season 1",
-          "release": "March 6, 2026"
+          "season": "Announcement Trailer",
+          "release": "Initial reveal timeline"
         },
         {
-          "season": "Season 2",
-          "release": "April 2026"
+          "season": "Nintendo Direct Feature",
+          "release": "Deep-dive showcase"
         },
         {
-          "season": "Season 3",
-          "release": "June 2026"
+          "season": "Overview Trailer",
+          "release": "System summary pass"
         },
         {
-          "season": "Season 4",
-          "release": "July 2026"
+          "season": "Pre-Launch Recap",
+          "release": "Final launch-facing materials"
         },
         {
-          "season": "Season 5",
-          "release": "September 2026"
+          "season": "Demo Spotlight",
+          "release": "Playable preview communication"
         },
         {
-          "season": "Season 6",
-          "release": "October 2026"
+          "season": "Post-Launch Guides",
+          "release": "Early lifecycle support content"
         }
       ],
       "editionPacks": [
         {
-          "name": "King of Kings Edition Pack",
+          "name": "Core Video Set",
           "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H Signature Taunt"
+            "Overview trailer for major systems",
+            "Direct segment focused on gameplay loops",
+            "Store-linked clips for conversion support"
           ]
         },
         {
-          "name": "Attitude Era Edition Pack",
+          "name": "Recap Video Set",
           "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVO Card",
-            "The Rock EVO Card",
-            "Raw Is War '98 arena"
+            "Mii creator highlight moments",
+            "Relationship and roommate story examples",
+            "Island customization before/after comparisons"
           ]
         },
         {
-          "name": "Monday Night War Edition Pack",
+          "name": "New Player Set",
           "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 arena"
+            "Beginner workflow summary",
+            "Demo-to-full-version transfer reminder",
+            "Facility routing and daily checklist clips"
           ]
         },
         {
-          "name": "WrestleMania 42 Pack",
+          "name": "Community Share Set",
           "includes": [
-            "WrestleMania 42 arena",
-            "WM42 Persona #1",
-            "WM42 Persona #2",
-            "WM42 Persona #3"
+            "Local wireless sharing examples",
+            "Palette House creative showcases",
+            "Resident story highlight compilations"
           ]
         }
       ],
       "unlockExamples": [
         {
-          "name": "AJ Lee",
-          "source": "Showcase: What If Match #7"
+          "name": "Overview Trailer",
+          "source": "Nintendo official channel"
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass #1 Free Track Tier 5"
+          "name": "Nintendo Direct segment",
+          "source": "Nintendo Direct archive"
         },
         {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass #1 Free Track Tier 4"
+          "name": "Demo feature clip",
+          "source": "Nintendo news updates"
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass #1 Premium Track Tier 1"
-        },
-        {
-          "name": "Flammer",
-          "source": "Ringside Pass #1 Premium Track Tier 7"
-        },
-        {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: Historical Match #7"
+          "name": "Launch reminder video",
+          "source": "Official social releases"
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Tomodachi Life: Living the Dream",
+    "title": "Tomodachi Life Living The Dream",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers for Tomodachi Life Living The Dream players",
     "questions": [
       {
-        "question": "When is Tomodachi Life: Living the Dream released?",
-        "answer": "Tomodachi Life: Living the Dream launches on April 16, 2026 for Nintendo Switch."
+        "question": "When does Tomodachi Life Living The Dream launch?",
+        "answer": "Tomodachi Life Living The Dream launches on April 16, 2026 for Nintendo Switch."
       },
       {
-        "question": "How many players does Tomodachi Life: Living the Dream support?",
-        "answer": "The game supports up to 2 players and focuses on social life-sim interactions on your island."
+        "question": "Can I transfer progress from the Tomodachi Life Living The Dream demo?",
+        "answer": "Yes. Demo progress can transfer to the full release in supported regions."
       },
       {
-        "question": "What platform is Tomodachi Life: Living the Dream on?",
-        "answer": "Tomodachi Life: Living the Dream is available on Nintendo Switch."
+        "question": "What is the core loop in Tomodachi Life Living The Dream?",
+        "answer": "You create Miis, manage relationships, develop island spaces, and personalize homes, items, and daily routines."
       },
       {
-        "question": "Is there a free demo for Tomodachi Life: Living the Dream?",
-        "answer": "Yes. Nintendo has released a playable demo, and progress can transfer to the full game in supported regions."
+        "question": "Does Tomodachi Life Living The Dream support local sharing?",
+        "answer": "Yes. Local wireless supports sharing selected Miis and custom creations with nearby players."
       },
       {
-        "question": "What can you do in Tomodachi Life: Living the Dream?",
-        "answer": "You can create Miis, build island life routines, customize rooms and items, and follow relationship stories."
+        "question": "How many players can join Tomodachi Life Living The Dream?",
+        "answer": "Tomodachi Life Living The Dream supports up to 2 players."
       },
       {
-        "question": "Where can I follow official Tomodachi Life: Living the Dream updates?",
-        "answer": "Check Nintendo's official store page, Nintendo news posts, and the official overview trailer for updates."
+        "question": "Where should I check official Tomodachi Life Living The Dream updates?",
+        "answer": "Use Nintendo's store page, Nintendo news posts, and official trailer uploads for the latest updates."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Build Your Mii Island Life?",
-    "description": "Follow Tomodachi Life: Living the Dream updates, trailers, and community discussions before launch.",
-    "joinCommunity": "Join r/tomodachilife Community",
-    "joinGame": "View on Nintendo Switch Store"
+    "title": "Ready for Tomodachi Life Living The Dream?",
+    "description": "Track demos, trailers, launch details, and high-value island systems in one clean hub.",
+    "joinCommunity": "Join r/tomodachilife",
+    "joinGame": "Open Official Nintendo Page"
   },
   "footer": {
     "title": "Tomodachi Life Living The Dream Wiki",
-    "description": "Your complete resource hub for Tomodachi Life: Living the Dream guides, Mii creation tips, island systems, demo info, and trailer updates.",
+    "description": "A focused resource for Tomodachi Life Living The Dream release info, creation tools, social systems, and island planning.",
     "resources": "Resources",
     "community": "Community",
-    "legal": "Legal",
-    "discord": "Reddit Community",
-    "twitter": "Reddit LTD Community",
-    "reddit": "Reddit Main",
+    "legal": "Official Links",
+    "discord": "r/tomodachilife",
+    "twitter": "r/TomodachiLife_LTD",
+    "reddit": "Nintendo Store",
     "youtube": "Overview Trailer",
-    "instagram": "Official Nintendo Page",
-    "about": "About",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Tomodachi Life Living The Dream Wiki. Unofficial fan site not affiliated with Nintendo.",
-    "disclaimer": "Unofficial fan-made resource website for Tomodachi Life: Living the Dream."
+    "instagram": "Nintendo News",
+    "about": "Nintendo Store Page",
+    "privacy": "Nintendo News Hub",
+    "terms": "Nintendo YouTube",
+    "copyrightNotice": "Nintendo US",
+    "copyright": "© 2026 Tomodachi Life Living The Dream Wiki. Unofficial fan site.",
+    "disclaimer": "This site is a fan-made reference for Tomodachi Life Living The Dream."
   }
 }
