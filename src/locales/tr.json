@@ -1,836 +1,1244 @@
 {
   "seo": {
     "home": {
-      "title": "Burglin' Gnomes Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Burglin' Gnomes kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Burglin' Gnomes Wiki, Burglin' Gnomes, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Burglin' Gnomes Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Burglin' Gnomes kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Burglin' Gnomes Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Burglin' Gnomes kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Tomodachi Life: Living the Dream Wiki - Mii, Island, Guide",
+      "description": "Tomodachi Life: Living the Dream Wiki covers Mii creation, relationships, island building, release date, demo, trailers, items, and tips for Switch.",
+      "keywords": "Tomodachi Life Living the Dream, Nintendo Switch, Mii, island, relationships, demo, guide",
+      "ogTitle": "Tomodachi Life: Living the Dream Wiki - Mii, Island, Guide",
+      "ogDescription": "Tomodachi Life: Living the Dream Wiki covers Mii creation, relationships, island building, release date, demo, trailers, items, and tips for Switch.",
+      "twitterTitle": "Tomodachi Life: Living the Dream Wiki - Mii, Island, Guide",
+      "twitterDescription": "Tomodachi Life: Living the Dream Wiki covers Mii creation, relationships, island life, demo news, and official trailers."
     }
   },
   "nav": {},
   "common": {
-    "home": "Ana Sayfa",
-    "more": "Daha Fazla",
-    "playNow": "Demo İndir",
-    "switchLanguage": "Dil Değiştir",
-    "switchTheme": "Tema Değiştir",
-    "lightMode": "Açık Mod",
-    "darkMode": "Koyu Mod",
-    "notFound": "Sayfa Bulunamadı",
-    "notFoundDescription": "Aradığınız sayfa mevcut değil.",
-    "backToHome": "Ana Sayfaya Dön",
-    "relatedArticles": "İlgili Makaleler",
-    "readMore": "Daha Fazla Oku"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Buy Now",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Burglin' Gnomes wiki",
-    "description": "Burglin' Gnomes için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnRobloxCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Quirky Mii Island Life Sim",
+    "title": "Tomodachi Life: Living the Dream Wiki",
+    "description": "Create Miis, shape an island, watch friendships and romance unfold, and manage a silly little world full of food, gifts, rooms, and surprises.",
+    "getFreeCodesCTA": "Get Free Demo for Nintendo Switch",
+    "playOnRobloxCTA": "Play Tomodachi Life on Nintendo Switch",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "2026-04-16",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "Up to 2",
+        "label": "Players"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "Available now",
+        "label": "Free Demo"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "10",
+        "label": "Supported Languages"
       }
     }
   },
   "gameFeature": {
-    "title": "Burglin' Gnomes Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Tomodachi Life: Living the Dream Gameplay",
+    "description": "Watch the official overview trailer and key scenes for Mii creation, island life, relationships, and customization."
   },
   "tools": {
-    "title": "Burglin' Gnomes",
-    "titleHighlight": "Kaynaklar",
-    "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
+    "title": "Tomodachi Life Living The Dream",
+    "titleHighlight": "Homepage Navigator",
+    "subtitle": "Jump to every Tomodachi Life Living The Dream module below",
     "cards": [
       {
-        "icon": "İndir",
-        "title": "Demo İndirme",
-        "description": "Ücretsiz Steam demosunu edinin"
+        "icon": "Calendar",
+        "title": "Tomodachi Life Living The Dream Release Date",
+        "description": "Launch timeline, platforms, and version status"
       },
       {
-        "icon": "KitapAçık",
-        "title": "Başlangıç Rehberi",
-        "description": "Temel döngü ve yaygın tuzaklar"
+        "icon": "Download",
+        "title": "Tomodachi Life Living The Dream Demo",
+        "description": "Download steps, demo scope, and carry-over data"
       },
       {
-        "icon": "Kullanıcılar",
-        "title": "İşbirliği Rehberi",
-        "description": "6 oyunculu roller ve kurtarma taktikleri"
+        "icon": "BookOpen",
+        "title": "Tomodachi Life Living The Dream Beginner Guide",
+        "description": "First-day checklist to start your island smoothly"
       },
       {
-        "icon": "PanoKontrol",
-        "title": "Görevler & Amaçlar",
-        "description": "Yüksek Cüce'nin sizden istedikleri"
+        "icon": "Sparkles",
+        "title": "Tomodachi Life Living The Dream New Features",
+        "description": "Face Paint, Quik Build, and more new systems"
       },
       {
-        "icon": "Klavye",
-        "title": "Kontroller & Tuş Atamaları",
-        "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
+        "icon": "Users",
+        "title": "Tomodachi Life Living The Dream Mii Creator",
+        "description": "Build residents with advanced look and identity tools"
       },
       {
-        "icon": "Kalkan",
-        "title": "İçerik Ayarları",
-        "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
+        "icon": "MessageCircle",
+        "title": "Tomodachi Life Living The Dream Relationships",
+        "description": "Friendship, romance, conflicts, and roommate life"
       },
       {
-        "icon": "Çekiç",
-        "title": "Üretim & Ekipman",
-        "description": "Çalınan malzemelerle donanın"
+        "icon": "Map",
+        "title": "Tomodachi Life Living The Dream Island Builder",
+        "description": "Landscape editing, placement plans, and districts"
       },
       {
-        "icon": "Paket",
-        "title": "Ganimet & Eşyalar",
-        "description": "Ne çalınır ve taşıma ipuçları"
+        "icon": "Building",
+        "title": "Tomodachi Life Living The Dream Shops and Facilities",
+        "description": "Every major shop and utility building in one place"
       },
       {
-        "icon": "UyarıÜçgeni",
-        "title": "Düşmanlar & Tehlikeler",
-        "description": "Tehditler ve onlarla nasıl başa çıkılır"
+        "icon": "Package",
+        "title": "Tomodachi Life Living The Dream Food Guide",
+        "description": "Food systems table, taste reactions, and custom food workflow"
       },
       {
-        "icon": "Göz",
-        "title": "Gizlilik & Kaçış",
-        "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
+        "icon": "Palette",
+        "title": "Tomodachi Life Living The Dream Outfits",
+        "description": "Where and Wear, daily specials, and resident outfit reactions"
       },
       {
-        "icon": "Ana Sayfa",
-        "title": "Ev Geliştirmeleri",
-        "description": "Yüzen ada üssünüzü geliştirin"
+        "icon": "Home",
+        "title": "Tomodachi Life Living The Dream Room Interiors",
+        "description": "T and C Reno updates, roommate homes, and interior planning"
       },
       {
-        "icon": "MesajDairesi",
-        "title": "Topluluk & Discord",
-        "description": "Resmi bağlantılar ve grup bulma"
+        "icon": "Settings",
+        "title": "Tomodachi Life Living The Dream Palette House",
+        "description": "Five-step creation flow for pets, food, exteriors, and sharing"
       },
       {
-        "icon": "Ayarlar",
-        "title": "Modlar & BepInEx",
-        "description": "Çerçeve ve mod kurulumunu yapın"
+        "icon": "ClipboardCheck",
+        "title": "Tomodachi Life Living The Dream Roommates",
+        "description": "Shared-home setups and social interaction outcomes"
       },
       {
-        "icon": "Yıldız",
-        "title": "Popüler Modlar",
-        "description": "En iyi topluluk seçimleri ve özellikleri"
+        "icon": "Globe",
+        "title": "Tomodachi Life Living The Dream Mii Exchange",
+        "description": "Local sharing workflow for Miis and custom items"
       },
       {
-        "icon": "OyunKonsolu2",
-        "title": "Kontrol Cihazı Desteği",
-        "description": "UI imleci ile tam gamepad oyunu"
+        "icon": "Monitor",
+        "title": "Tomodachi Life Living The Dream Price and Platforms",
+        "description": "Compare pricing, language support, and file size"
       },
       {
-        "icon": "YükselişTrendi",
-        "title": "Oyuncu Sayısı & Trendi",
-        "description": "Canlı istatistikler ve zirve takibi"
+        "icon": "Film",
+        "title": "Tomodachi Life Living The Dream Trailer and Direct",
+        "description": "Overview trailer, Nintendo Direct, and key recaps"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Burglin' Gnomes Demo İndirme",
-      "subtitle": "Steam'de ücretsiz demoyu edinin",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30 Ocak 2026",
-      "price": "Ücretsiz",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo İndir",
-      "secondaryCTA": "Teknik Bilgileri Görüntüle",
-      "installPath": "Steam\\steamapps\\common\\Burglin Gnomes Demo",
-      "sections": [
+    "releaseEditions": {
+      "title": "Tomodachi Life Living The Dream Release Date",
+      "subtitle": "Track launch timing, platform details, and official availability",
+      "quickFacts": [
         {
-          "heading": "Nereden indirilir",
-          "items": [
-            "Resmi Steam mağaza sayfasını açın ve 'Demo İndir' bölümünü kullanın.",
-            "Steam sizden oturum açmanızı isterse, önce oturum açın ve tekrar deneyin."
+          "label": "Global Release",
+          "value": "April 16, 2026"
+        },
+        {
+          "label": "Primary Platform",
+          "value": "Nintendo Switch"
+        },
+        {
+          "label": "Players",
+          "value": "Up to 2"
+        },
+        {
+          "label": "Current State",
+          "value": "Demo Available"
+        }
+      ],
+      "editions": [
+        {
+          "name": "Tomodachi Life Living The Dream Digital Edition",
+          "price": "$59.99",
+          "releaseDate": "April 16, 2026",
+          "platforms": [
+            "Nintendo Switch"
+          ],
+          "includes": [
+            "Tomodachi Life Living The Dream base game",
+            "Main island simulation systems",
+            "Mii creator and relationship systems"
           ]
         },
         {
-          "heading": "Kurulum & başlatma hızlı kontrolleri",
-          "items": [
-            "Varsayılan kurulum konumu: Steam Kütüphanesi klasörü → steamapps → common → (oyun klasörü).",
-            "Başlatılamıyorsa: Steam'de oyun dosyalarını doğrulayın, ardından Steam'i yeniden başlatın."
+          "name": "Tomodachi Life Living The Dream Demo",
+          "price": "$0.00",
+          "releaseDate": "Available Now",
+          "platforms": [
+            "Nintendo Switch"
+          ],
+          "includes": [
+            "Playable early-life island experience",
+            "Mii setup and early relationship flow",
+            "Save transfer to full game in supported regions"
+          ]
+        },
+        {
+          "name": "Tomodachi Life Living The Dream Store Version",
+          "price": "By Region",
+          "releaseDate": "April 16, 2026",
+          "platforms": [
+            "Nintendo Switch eShop"
+          ],
+          "includes": [
+            "Regional language packs",
+            "Official Nintendo support channels",
+            "Switch account-based access"
+          ]
+        },
+        {
+          "name": "Tomodachi Life Living The Dream Compatible Setup",
+          "price": "Hardware Required",
+          "releaseDate": "Launch Window",
+          "platforms": [
+            "Nintendo Switch Family"
+          ],
+          "includes": [
+            "Docked and handheld play support",
+            "Local wireless sharing features",
+            "Cross-region content reading in supported languages"
           ]
         }
+      ],
+      "highlights": [
+        "Release date and demo status are clear from official storefront channels",
+        "Up to 2 players supports social local play loops",
+        "This module is optimized for date-focused and launch-focused searches"
       ]
     },
-    "beginnerGuide": {
-      "title": "Burglin' Gnomes Başlangıç Rehberi",
-      "subtitle": "Temel döngüde ustalaşın ve yaygın hatalardan kaçının",
-      "steps": [
+    "roster": {
+      "title": "Tomodachi Life Living The Dream Demo",
+      "subtitle": "Understand what the demo includes and how to carry progress",
+      "stats": [
         {
-          "number": 1,
-          "title": "Eve Girin",
-          "description": "Yüzen ada üssünüzden bir insan evine inin. Dışarıda doğun ve kilitli olmayan kapılardan veya pencerelerden içeri sızın."
+          "label": "Demo Cost",
+          "value": "Free"
         },
         {
-          "number": 2,
-          "title": "Görevleri Tamamlayın",
-          "description": "Yüksek Cüce görevlerini süre dolmadan bitirin. Tab tuşu aracılığıyla hedefleri kontrol edin ve öncelikle riskli görevlere öncelik verin."
+          "label": "Progress Transfer",
+          "value": "Supported"
         },
         {
-          "number": 3,
-          "title": "Eşyaları Çalın",
-          "description": "Değerli eşyaları ve üretim malzemelerini kapın. Gürültü yapmaktan veya ev sahibine yakalanmaktan kaçının."
-        },
-        {
-          "number": 4,
-          "title": "Tornado ile Kaçın",
-          "description": "Zamanlayıcı sona erdiğinde, bahçede bir tornado oluşur—güvenli bir şekilde çıkış yapmak için ona ulaşın. Erken hareket etmeye başlayın!"
-        },
-        {
-          "number": 5,
-          "title": "Geliştirin & Tekrarlayın",
-          "description": "Ödülleri ve malzemeleri evde ekipman üretmek için kullanın, ardından daha iyi ekipmanlarla bir sonraki soygununuza başlayın."
+          "label": "Main Focus",
+          "value": "Create + Early Island Flow"
         }
       ],
-      "pitfalls": [
-        {
-          "title": "Yakalanmak",
-          "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
-        },
-        {
-          "title": "Sürenin Bitmesi",
-          "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
-        },
-        {
-          "title": "Takım Arkadaşlarını Görmezden Gelmek",
-          "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Burglin' Gnomes İşbirliği Rehberi",
-      "subtitle": "Maksimum kaos için 6 oyuncuya kadar koordine olun",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Gözcü",
-          "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
-        },
-        {
-          "name": "Taşıyıcı",
-          "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
-        },
-        {
-          "name": "Dikkat Dağıtıcı",
-          "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
-        },
-        {
-          "name": "Kurtarıcı",
-          "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
-        }
-      ],
-      "threats": [
-        "Ev Sahibi (sizi kovalar ve tuzağa düşürür)",
-        "Kediler & Fareler (devriye yolları)",
-        "Robot Süpürge (anında tehlike)",
-        "Süre Sınırı (tornado tahliyesi)"
-      ],
-      "communication": "Görevleri ve kurtarmaları koordine etmek için sesli sohbeti (V tuşu) kullanın. Şunu söyleyin: 'Görüldü', 'Rota', 'Kurtarmaya ihtiyacım var', 'Yakında çıkış yap'."
-    },
-    "tasksObjectives": {
-      "title": "Burglin' Gnomes Görevler & Amaçlar",
-      "subtitle": "Yüksek Cüce'nin istedikleri: görev örnekleri",
-      "taskTypes": [
-        {
-          "type": "Eşyaları Çalın",
-          "examples": [
-            "Yüksek Cüce hedefleri tarafından işaretlenen belirli eşyaları kapın"
-          ]
-        },
-        {
-          "type": "Konumlara Ulaşın",
-          "examples": [
-            "Evin içindeki belirtilen alanlara gidin"
-          ]
-        },
-        {
-          "type": "Yaramazlık Yapın",
-          "examples": [
-            "Bir TV'yi kırın",
-            "Bir tuvaleti su baskını yapın",
-            "Kaos yaratın"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Takım bir aradayken önce riskli görevleri yapın",
-        "Takip sırasında kaybolmamaları için görev eşyaları için bir taşıyıcı atayın",
-        "Süre dolmadan çıkışa doğru hareket etmeye başlayın"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Burglin' Gnomes Kontroller & Tuş Atamaları",
-      "subtitle": "Varsayılan klavye kontrolleri (ve bunları nerede değiştireceğiniz)",
-      "keybinds": [
-        {
-          "action": "Sola Hareket Et",
-          "key": "A"
-        },
-        {
-          "action": "Sağa Hareket Et",
-          "key": "D"
-        },
-        {
-          "action": "İleri Hareket Et",
-          "key": "W"
-        },
-        {
-          "action": "Geri Hareket Et",
-          "key": "S"
-        },
-        {
-          "action": "Çömelme",
-          "key": "Sol Ctrl"
-        },
-        {
-          "action": "Saldırı",
-          "key": "Sol Tık"
-        },
-        {
-          "action": "Koş",
-          "key": "Sol Shift"
-        },
-        {
-          "action": "Eşyayı Bırak",
-          "key": "G"
-        },
-        {
-          "action": "Etkileşim",
-          "key": "E"
-        },
-        {
-          "action": "Zıpla",
-          "key": "Boşluk"
-        },
-        {
-          "action": "Bas-Konuş",
-          "key": "V"
-        },
-        {
-          "action": "İtme",
-          "key": "Sağ Tık"
-        },
-        {
-          "action": "Bez Bebek",
-          "key": "Q"
-        },
-        {
-          "action": "Ekipman Yuvası 1",
-          "key": "1"
-        },
-        {
-          "action": "Ekipman Yuvası 2",
-          "key": "2"
-        },
-        {
-          "action": "Ekipman Yuvası 3",
-          "key": "3"
-        },
-        {
-          "action": "Ekipman Yuvası 4",
-          "key": "4"
-        },
-        {
-          "action": "Envanter",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Başlık menüsünden: AYARLAR'ı açın, ardından klavye ayarlarını kontrol edin. Tuş atama satırlarını filtrelemek için arama alanını kullanın."
-    },
-    "contentSettings": {
-      "title": "Burglin' Gnomes İçerik Ayarları",
-      "subtitle": "Yetişkinlere yönelik içerik, çıplaklık geçişi ve Steam tercihleri",
-      "descriptors": [
-        "Bazı Çıplaklık veya Cinsel İçerik",
-        "Genel Yetişkinlere Yönelik İçerik"
-      ],
-      "details": [
-        {
-          "heading": "Geliştiricilerin belirttiği şey",
-          "items": [
-            "Bir insan banyo gibi aktiviteler yaparken çıplak görünebilir.",
-            "Çıplaklık sansürlenmiştir ve isteğe bağlı olarak tamamen kapatılabilir.",
-            "Cüceler parçalanabilir ve acımasız şekillerde ölebilir."
-          ]
-        },
-        {
-          "heading": "Steam topluluk sayfasını engellerse",
-          "items": [
-            "Steam, içerik tercihlerinize bağlı olarak topluluk merkezini gizleyebilir.",
-            "Steam'in ne göstermesine izin verdiğinizi ayarlamak için Steam'in 'İçerik Tercihlerini Güncelle' seçeneğini kullanın."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Burglin' Gnomes Üretim & Ekipman",
-      "subtitle": "Donanın: üretim örnekleri ve her aracın ne yaptığı",
-      "equipment": [
-        {
-          "item": "Sırt Çantası",
-          "benefit": "Her koşu için daha fazla ganimet için envanter kapasitesini genişletir"
-        },
-        {
-          "item": "Cüce Eldivenleri",
-          "benefit": "Kapıları açmanızı ve daha fazla nesneyle etkileşim kurmanızı sağlar"
-        },
-        {
-          "item": "Yaylı Ayakkabılar",
-          "benefit": "Kaçışlar sırasında yüksek düşmelerden kaynaklanan hasarı önler"
-        },
-        {
-          "item": "Silah",
-          "benefit": "Köşeye sıkıştığınızda fareler gibi tehditlerle savaşmanıza yardımcı olur"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Üretim yağmalamaya nasıl bağlanır",
-          "items": [
-            "Bir koşu sırasında, eşyaları çalın ve üretim malzemesi olarak geri getirin.",
-            "Tahliyeden sonra, ödüller/malzemeler yeni üretimleri destekler."
-          ]
-        },
-        {
-          "heading": "Üs iyileştirmesi",
-          "items": [
-            "Mobilya üretin ve yüzen ada evinizi yükseltin (tam oyun özelliği)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Burglin' Gnomes Ganimet & Eşyalar",
-      "subtitle": "Ne çalınır: eşya türleri, risk ve taşıma ipuçları",
       "categories": [
         {
-          "type": "Görev Eşyaları",
-          "examples": [
-            "Yüksek Cüce tarafından hedefler için gerekli olan eşyalar"
+          "name": "Download Path",
+          "superstars": [
+            "Open Nintendo eShop",
+            "Search Tomodachi Life Living The Dream",
+            "Select Demo and start download",
+            "Launch with your Nintendo account"
           ]
         },
         {
-          "type": "Üretim Malzemeleri",
-          "examples": [
-            "Cüce teçhizatına ve yükseltmelerine dönüştürülen ev eşyaları"
+          "name": "Demo Activities",
+          "superstars": [
+            "Create and name your first residents",
+            "Start food, gift, and mood routines",
+            "Trigger early friendship interactions",
+            "Preview island customization options"
           ]
         },
         {
-          "type": "Yaramazlık Hedefleri",
-          "examples": [
-            "Kırma veya su baskını gibi görevlerde yer alan nesneler"
+          "name": "Carry-Over Checklist",
+          "superstars": [
+            "Use the same account for full version",
+            "Keep demo save data intact",
+            "Confirm region transfer support",
+            "Import progress on first full-game boot"
           ]
-        }
-      ],
-      "carryTips": [
-        "Görev ilerlemesine öncelik verin, ardından kalan kapasiteyi üretim malzemeleriyle doldurun",
-        "Tehditler yakındaysa, eşyaları uzun açık taşımalar yerine kısa güvenli sıçramalarla hareket ettirin",
-        "Zamanlayıcı sona ermeden bahçe tahliyesine giden rotayı planlayın"
-      ],
-      "riskLevels": [
-        {
-          "level": "Düşük",
-          "description": "Girişlerin veya güvenli köşelerin yakınında"
         },
         {
-          "level": "Orta",
-          "description": "Daha derin odalar veya dolaşan tehditlerin yakınında"
-        },
-        {
-          "level": "Yüksek",
-          "description": "Ev sahibi devriyesinin veya robot süpürgenin yakınında"
+          "name": "Best First Session",
+          "superstars": [
+            "Create at least 3 Miis",
+            "Test food reactions for each resident",
+            "Try one room customization pass",
+            "Set one target friendship pair"
+          ]
         }
       ]
     },
-    "enemiesHazards": {
-      "title": "Burglin' Gnomes Düşmanlar & Tehlikeler",
-      "subtitle": "Sizi neyin yakalayabileceğini bilin",
-      "threats": [
+    "ratings": {
+      "title": "Tomodachi Life Living The Dream Beginner Guide",
+      "subtitle": "A practical first-week setup plan for steady island progress",
+      "menTopRated": [
         {
-          "name": "Ev Sahibi",
-          "trigger": "Soygun yaparken veya görev yaparken yakalanmak",
-          "behavior": "Sizi kovalar ve yakalamaya çalışır",
-          "counter": "Gizli kalın, görüş hatlarını kırın ve bir ekip olarak hareket etmeye devam edin"
+          "name": "Start with 3-5 Miis for stable activity loops",
+          "rating": 10
         },
         {
-          "name": "Kediler",
-          "trigger": "Çok yaklaşmak veya yollarını kesmek",
-          "behavior": "Siz gizlice dolaşırken doğrudan bir tehdit haline gelirler",
-          "counter": "Yollarından kaçının ve sessizce geçin"
+          "name": "Check resident thought bubbles every login",
+          "rating": 9
         },
         {
-          "name": "Fareler",
-          "trigger": "Farelerin dolaştığı alanlara girmek",
-          "behavior": "Koşular sırasında kırılgan cüceleri tehdit ederler",
-          "counter": "Dar alanlarda tetikte olun ve geri çekilmeye hazır olun"
+          "name": "Feed Miis before gifting for better mood balance",
+          "rating": 9
         },
         {
-          "name": "Robot Süpürge",
-          "trigger": "Temizleme yolunda olmak",
-          "behavior": "Cüceleri emebilir",
-          "counter": "Onu dinleyin, yolunda durmayın ve hızlıca yeniden konumlanın"
+          "name": "Use daily routines to avoid idle islands",
+          "rating": 8
         },
         {
-          "name": "Buzdolabı / Fırın Tuzağı",
-          "trigger": "Ev sahibi tarafından yakalanmak",
-          "behavior": "İçeri kilitlenebilirsiniz; takım arkadaşları zamanında kurtarmazsa ölürsünüz",
-          "counter": "Hemen bağırın; takım arkadaşları kurtarma yoluna öncelik verir"
+          "name": "Group compatible residents nearby",
+          "rating": 8
         },
         {
-          "name": "Süre Sınırı",
-          "trigger": "Koşu zamanlayıcısının sınıra ulaşması",
-          "behavior": "Bahçede tahliye tornadosu belirir; kaçmak için ona ulaşmalısınız",
-          "counter": "Aşırı yağmalamayı bırakın, yeniden toplanın ve erken bir şekilde tahliyeye başlayın"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Burglin' Gnomes Gizlilik & Kaçış İpuçları",
-      "subtitle": "Daha fazla çalın, daha az ölün",
-      "do": [
-        "Gizli kalın ve nesnelerle etkileşim kurmadan önce siper alın",
-        "Ekip çalışmasını kullanın: tehditleri söyleyin ve rotaları koordine edin",
-        "Biri tuzağa düştüğünde veya yere serildiğinde takım arkadaşlarını hızlıca kurtarın",
-        "Kayıplarınızı azaltın ve zaman daraldığında tahliyeye gidin"
-      ],
-      "dont": [
-        "Tahliye yaklaştığında açgözlü olun",
-        "Ev sahibi aktifken takımdan çok uzağa ayrılın",
-        "Robot süpürge yollarını veya hayvan devriyelerini görmezden gelin",
-        "Bir takım arkadaşı kilitlendiğinde kurtarmaları geciktirin"
-      ],
-      "quickTips": [
-        {
-          "title": "3 Saniye Kuralı",
-          "text": "Bir sonraki hareketinizi 3 saniyede açıklayamazsanız, yakalanmak üzeresiniz demektir."
+          "name": "Track relationship changes after each event",
+          "rating": 8
         },
         {
-          "title": "Önce Kurtarma",
-          "text": "Hızlı bir kurtarma koşuyu canlı tutar; yağmalama bekleyebilir."
+          "name": "Prioritize comfort upgrades before expansion",
+          "rating": 7
         },
         {
-          "title": "Tahliye Disiplini",
-          "text": "Erken toplanın ve panik başlamadan önce tornadoya başlayın."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Burglin' Gnomes Ev Geliştirmeleri",
-      "subtitle": "Üret, inşa et, yükselt",
-      "branches": [
-        {
-          "branch": "Depolama",
-          "summary": "Daha fazla taşıyın ve daha fazlasını geri getirin",
-          "items": [
-            "Sırt Çantası (envanter genişletme)"
-          ]
+          "name": "Use local sharing for inspiration builds",
+          "rating": 7
         },
         {
-          "branch": "Yardımcı Program",
-          "summary": "Evle daha etkili etkileşim kurun",
-          "items": [
-            "Cüce Eldivenleri (kapıları ve daha fazlasını açmanızı sağlar)"
-          ]
+          "name": "Test voice/personality combinations early",
+          "rating": 7
         },
         {
-          "branch": "Hareketlilik",
-          "summary": "Dikey alanlarda daha güvenli hareket edin",
-          "items": [
-            "Yaylı Ayakkabılar (düşme hasarını azaltır)"
-          ]
-        },
-        {
-          "branch": "Savunma",
-          "summary": "Gerekirse küçük tehditlerle başa çıkın",
-          "items": [
-            "Silahlar (fareler gibi tehditler için)"
-          ]
-        },
-        {
-          "branch": "Ana Üs",
-          "summary": "Mobilya üretin ve yüzen ada evinizi yükseltin",
-          "items": [
-            "Fonksiyonel mobilya yükseltmeleri"
-          ]
+          "name": "Document your favorite item combos",
+          "rating": 6
         }
       ],
-      "priority": [
+      "womenTopRated": [
         {
-          "rank": 1,
-          "title": "Önce depolama",
-          "reason": "Daha fazla taşıma kapasitesi her koşunun getirisini artırır"
+          "name": "Morning: check requests and quick needs",
+          "rating": 10
         },
         {
-          "rank": 2,
-          "title": "Sıradaki yardımcı program",
-          "reason": "Daha iyi etkileşimler tehlike bölgelerinde geçirilen süreyi azaltır"
+          "name": "Midday: run food and outfit refresh",
+          "rating": 9
         },
         {
-          "rank": 3,
-          "title": "Hayatta kalmak için hareketlilik",
-          "reason": "Düşme güvenliği kaçarken önlenebilir ölümleri önler"
+          "name": "Evening: trigger new introductions",
+          "rating": 9
+        },
+        {
+          "name": "Rotate room themes by personality",
+          "rating": 8
+        },
+        {
+          "name": "Keep one social wildcard resident",
+          "rating": 8
+        },
+        {
+          "name": "Use Quik Build to improve hangout density",
+          "rating": 8
+        },
+        {
+          "name": "Test palette-made gifts on different Miis",
+          "rating": 7
+        },
+        {
+          "name": "Review shop inventory every cycle",
+          "rating": 7
+        },
+        {
+          "name": "Maintain one low-cost daily checklist",
+          "rating": 7
+        },
+        {
+          "name": "Archive notable island stories for planning",
+          "rating": 6
         }
+      ],
+      "highlights": [
+        "Beginner module focuses on repeatable habits over one-time tips",
+        "Two ranked columns represent setup priorities and daily loop priorities",
+        "All tips are structured for quick scanning on mobile"
       ]
     },
-    "community": {
-      "title": "Burglin' Gnomes Topluluk & Discord",
-      "subtitle": "Kadrolar, güncellemeler, tartışmalar bulun",
-      "links": [
+    "controls": {
+      "title": "Tomodachi Life Living The Dream New Features",
+      "subtitle": "Core new systems confirmed in official previews and store pages",
+      "platforms": [
         {
-          "title": "Resmi Discord",
-          "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.gg/rbeW4bpsqY"
+          "name": "Creation Systems",
+          "controls": [
+            {
+              "action": "Face Paint",
+              "input": "Stamp and draw custom facial details"
+            },
+            {
+              "action": "Two-Tone Hair",
+              "input": "Blend dual colors for stronger identity"
+            },
+            {
+              "action": "Expanded Face Parts",
+              "input": "More options for eyes, ears, makeup, and hair"
+            },
+            {
+              "action": "Personality Tuning",
+              "input": "Adjust quirks, tone, and social energy"
+            }
+          ]
         },
         {
-          "title": "Resmi X (Twitter)",
-          "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/itsfobri"
-        },
-        {
-          "title": "Steam Topluluk Merkezi",
-          "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3844970"
-        },
-        {
-          "title": "Steam Mağaza Sayfası",
-          "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3844970/Burglin_Gnomes/"
+          "name": "Island Systems",
+          "controls": [
+            {
+              "action": "Quik Build",
+              "input": "Place benches, trees, and amenity objects quickly"
+            },
+            {
+              "action": "Facility Movement",
+              "input": "Reposition homes and shops by layout goals"
+            },
+            {
+              "action": "Ground Pattern Design",
+              "input": "Apply tile patterns to outdoor zones"
+            },
+            {
+              "action": "Palette House",
+              "input": "Create custom items, pets, and decorative assets"
+            }
+          ]
         }
+      ],
+      "tips": [
+        "Start with creation tools first, then optimize island layout",
+        "Use Quik Build to increase interaction hotspots",
+        "Pair room style updates with personality-based residents",
+        "Treat Palette House as both cosmetic and social progression"
       ]
     },
-    "modsBepInEx": {
-      "title": "Burglin' Gnomes Modlar & BepInEx Kurulumu",
-      "subtitle": "Modları temiz bir şekilde kurun",
-      "steps": [
+    "matchTypes": {
+      "title": "Tomodachi Life Living The Dream Mii Creator",
+      "subtitle": "Build residents with guided setup, advanced face tools, and full identity controls",
+      "quickFacts": [
         {
-          "step": 1,
-          "title": "BepInEx 5'i Kurun",
-          "text": "BepInEx 5'i indirin ve oyun kök klasörüne çıkarın."
+          "label": "Creation Paths",
+          "value": "Get Help + From Scratch"
         },
         {
-          "step": 2,
-          "title": "Klasörleri oluşturmak için bir kez başlatın",
-          "text": "Oyunu ana menüye başlatın, ardından kapatın. Bu, BepInEx klasör yapısını oluşturur."
+          "label": "Advanced Tool",
+          "value": "Face Paint"
         },
         {
-          "step": 3,
-          "title": "Modları kurun",
-          "text": "Mod .dll dosyalarını eklenti klasörüne yerleştirin."
+          "label": "Identity Controls",
+          "value": "Voice, Height, Body Type, Personality"
+        }
+      ],
+      "matches": [
+        {
+          "icon": "BookOpen",
+          "name": "Starting Point",
+          "description": "Choose Get Help for guided prompts or From Scratch for full manual control.",
+          "bullets": [
+            "Get Help narrows down your look with simple questions",
+            "From Scratch lets you pick every part directly",
+            "Both routes flow into deeper customization"
+          ]
         },
         {
-          "step": 4,
-          "title": "Kurulumu doğrulayın",
-          "text": "Oyunu yeniden başlatın ve mod özelliğinin (kamera geçişi, UI imleci vb.) kullanılabilir olduğunu onaylayın."
+          "icon": "Palette",
+          "name": "Face and Style",
+          "description": "Adjust core appearance elements with broader face and style options.",
+          "bullets": [
+            "Tune face shape, hairstyle, eyebrows, eyes, and nose",
+            "Use options for glasses, makeup, and facial hair",
+            "Some face parts are unique to this release"
+          ]
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Advanced Tools",
+          "description": "Use Face Paint to go beyond preset parts with hand-crafted detail.",
+          "bullets": [
+            "Add stamps and custom markings",
+            "Use zoom and grid tools for precise edits",
+            "Apply palette controls for extra style range"
+          ]
+        },
+        {
+          "icon": "Settings",
+          "name": "Body and Identity",
+          "description": "Set voice, body profile, and personality traits after appearance setup.",
+          "bullets": [
+            "Choose name, height, and body type",
+            "Set gender and voice style",
+            "Tune quirks and energy to shape behavior"
+          ]
+        },
+        {
+          "icon": "Users",
+          "name": "Final Resident",
+          "description": "Create residents based on family, friends, admired people, or originals.",
+          "bullets": [
+            "Supports self-inserts and friend groups",
+            "Works for full original character builds",
+            "Your cast defines island story outcomes"
+          ]
+        }
+      ],
+      "newSystems": [
+        "Two creation flows support both new players and detail-focused creators",
+        "Face Paint enables custom visual detail beyond default parts",
+        "Identity settings directly influence island behavior and social scenes"
+      ]
+    },
+    "showcase": {
+      "title": "Tomodachi Life Living The Dream Relationships",
+      "subtitle": "Track how introductions, friendship growth, conflicts, and dating rules shape island stories",
+      "quickFacts": [
+        {
+          "label": "Core Loop",
+          "value": "Meet, Bond, Conflict, Recover"
+        },
+        {
+          "label": "Roommate Cap",
+          "value": "Up to 8 in shared homes"
+        },
+        {
+          "label": "Pairing Support",
+          "value": "Flexible inclusive settings"
+        }
+      ],
+      "moments": [
+        {
+          "icon": "MessageCircle",
+          "title": "Introductions You Can Trigger",
+          "description": "Move one resident near another to force a first introduction and begin their social path."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Friendship Progression",
+          "description": "Connections move from first contact into stronger bonds through repeated interactions."
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "Fights, Crushes, and Surprise Drama",
+          "description": "Residents can fight, fall in love, and create sudden emotional turns that keep stories active."
+        },
+        {
+          "icon": "Star",
+          "title": "Dating Preferences and Inclusive Pairing",
+          "description": "Each resident can use flexible dating preferences, including same-sex and multi-option settings."
+        },
+        {
+          "icon": "Globe",
+          "title": "Real-Life Relationship Rules",
+          "description": "Define real-life family links to control which relationship outcomes are allowed."
+        },
+        {
+          "icon": "Home",
+          "title": "Shared Home Dynamics",
+          "description": "Up to eight roommates in one home increases daily comedy, friction, and event variety."
+        }
+      ],
+      "specialFeature": {
+        "name": "Relationship Manager",
+        "description": "Use introductions, roommate layout, and preference settings to guide the social pace of your island."
+      }
+    },
+    "mygm": {
+      "title": "Tomodachi Life Living The Dream Island Builder",
+      "subtitle": "Shape terrain, move buildings, and design spaces that improve resident flow",
+      "quickFacts": [
+        {
+          "label": "Landscape Control",
+          "value": "Expand and reshape island space"
+        },
+        {
+          "label": "Placement Control",
+          "value": "Move homes and facilities"
+        },
+        {
+          "label": "Quick Decor",
+          "value": "Quik Build amenities"
+        },
+        {
+          "label": "Creation Hub",
+          "value": "Palette House custom assets"
+        }
+      ],
+      "features": [
+        {
+          "icon": "Map",
+          "title": "Shape the Landscape",
+          "description": "Expand and reshape land areas instead of keeping a fixed island layout."
+        },
+        {
+          "icon": "Layers",
+          "title": "Move Homes and Facilities",
+          "description": "Reposition homes and major facilities to build stronger activity routes."
+        },
+        {
+          "icon": "Hammer",
+          "title": "Use Quik Build Amenities",
+          "description": "Add trees, benches, vending machines, and other ready-made amenity objects."
+        },
+        {
+          "icon": "Package",
+          "title": "Design Comfortable Interiors",
+          "description": "Customize furniture, wallpaper, and flooring to match each resident's style."
+        },
+        {
+          "icon": "Building",
+          "title": "Make Custom Exteriors and Ground Tiles",
+          "description": "Design house exteriors and outdoor tile patterns to define neighborhood identity."
+        },
+        {
+          "icon": "Gift",
+          "title": "Create Original Island Items at Palette House",
+          "description": "Build custom food, clothing, pets, and other decorative assets for gifting and sharing."
+        }
+      ],
+      "ples": [
+        "Residential Core",
+        "Shop District",
+        "Beachfront Leisure Zone",
+        "Community Event Area",
+        "Photo Spot Cluster",
+        "Amenity Corridor"
+      ]
+    },
+    "myrise": {
+      "title": "Tomodachi Life Living The Dream Shops and Facilities",
+      "subtitle": "Every major named location and why it matters in your daily island loop",
+      "quickFacts": [
+        {
+          "label": "Economy Hub",
+          "value": "Wishing Fountain"
+        },
+        {
+          "label": "Food Hub",
+          "value": "Fresh Kingdom Food Mart"
+        },
+        {
+          "label": "Style Hub",
+          "value": "Where & Wear Clothing"
         }
       ],
       "paths": [
         {
-          "label": "Tipik Steam kurulumu",
-          "path": "Steam\\steamapps\\common\\Burglin Gnomes Demo\\"
+          "name": "Daily Loop Path",
+          "description": "Check fountain, food, and room facilities before relationship management."
         },
         {
-          "label": "Eklenti klasörü",
-          "path": "Steam\\steamapps\\common\\Burglin Gnomes Demo\\BepInEx\\plugins\\"
+          "name": "Style Loop Path",
+          "description": "Run clothing, marketplace, and photo spots for fresh event scenes."
         }
       ],
-      "multiplayerNote": "Modlanmış işbirliği oynanış özellikleri için herkes BepInEx'i ve aynı oynanış modlarını kurmalıdır."
-    },
-    "popularMods": {
-      "title": "Burglin' Gnomes Popüler Modlar",
-      "subtitle": "En iyi topluluk seçimleri",
-      "mods": [
+      "divisions": [
         {
-          "title": "Doğma Menüsü",
-          "tags": [
-            "Eğlence",
-            "Araçlar",
-            "Yalnızca Ev Sahibi"
-          ],
-          "description": "Uçuş modu ile bir eşya doğma menüsü ekler.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Doğma menüsünü aç"
-            },
-            {
-              "key": "V",
-              "action": "Uçmayı etkinleştir"
-            }
-          ],
-          "note": "Yalnızca Ev Sahibi; başkalarının katılmak için yüklemesi gerekmez."
-        },
-        {
-          "title": "Üçüncü Şahıs Görünümü",
-          "tags": [
-            "Kamera",
-            "Yaşam Kalitesi"
-          ],
-          "description": "Üçüncü şahıs kamera görünümü ekler.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Birinci şahıs / üçüncü şahıs arasında geçiş yap"
-            }
+          "icon": "Trophy",
+          "name": "Wishing Fountain",
+          "summary": "The fountain supports the island economy and daily upkeep loops.",
+          "details": [
+            "Collect donations here",
+            "Use island currency for purchases",
+            "Keep daily loops active with regular check-ins"
           ]
         },
         {
-          "title": "Daha Fazla Şapka",
-          "tags": [
-            "Kozmetik"
-          ],
-          "description": "Cüceler için ek şapka rengi seçenekleri ekler.",
-          "colors": [
-            "Mavi",
-            "Yeşil",
-            "Turuncu",
-            "Mor",
-            "Siyah",
-            "Kırmızı"
+          "icon": "Download",
+          "name": "Fresh Kingdom Food Mart",
+          "summary": "Primary food source for discovering favorites and managing mood.",
+          "details": [
+            "Buy drinks, sweets, and daily food items",
+            "Fill resident hunger needs quickly",
+            "Use reactions to map favorite foods"
           ]
         },
         {
-          "title": "TV'de DOOM",
-          "tags": [
-            "Eğlence",
-            "Mini oyun"
-          ],
-          "description": "Orijinal DOOM'u oyun içi bir TV'de oynayın, ses TV hoparlöründen gelsin.",
-          "highlights": [
-            "Çok oyunculu modda çalışır, böylece diğer oyuncular aynı TV'de izleyebilir",
-            "Shareware DOOM bölüm verilerini içerir (Bölüm 1)"
+          "icon": "Monitor",
+          "name": "Where & Wear Clothing",
+          "summary": "Main clothing facility for both normal outfits and standout costume looks.",
+          "details": [
+            "Shop apparel and custom design pieces",
+            "Mix everyday and novelty outfits",
+            "Support appearance-focused personalization"
+          ]
+        },
+        {
+          "icon": "Film",
+          "name": "T&C Reno Home Supply",
+          "summary": "Core room makeover facility for themed interiors and comfort upgrades.",
+          "details": [
+            "Revamp rooms and living spaces",
+            "Build strong themed interiors",
+            "Link room design with identity systems"
+          ]
+        },
+        {
+          "icon": "ClipboardCheck",
+          "name": "Quik Build Amenities",
+          "summary": "Outdoor placement shop for objects that improve layout and activity zones.",
+          "details": [
+            "Buy placeable island objects",
+            "Strengthen decoration planning",
+            "Create better interaction hotspots"
+          ]
+        },
+        {
+          "icon": "Keyboard",
+          "name": "Marketplace",
+          "summary": "Variable shop with rotating inventory and occasional unusual finds.",
+          "details": [
+            "Browse reasonably priced items",
+            "Check inventory by time of day",
+            "Look for mystery bags and rare picks"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "name": "Foto-Tomo Photography",
+          "summary": "Photo-op location for staged snapshots and comedic resident scenes.",
+          "details": [
+            "Create themed photo situations",
+            "Capture residents in styled poses",
+            "Build gallery-ready visual moments"
+          ]
+        },
+        {
+          "icon": "Eye",
+          "name": "Mii News Station",
+          "summary": "Island news outlet for tracking daily events and resident updates.",
+          "details": [
+            "Review day-to-day island happenings",
+            "Track what residents are doing",
+            "Follow event-driven story beats"
           ]
         }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Burglin' Gnomes Kontrol Cihazı Desteği",
-      "subtitle": "Tam gamepad oyunu",
-      "native": {
-        "title": "Oyun İçi Ayarlar",
-        "description": "Kontrolleri ayarlamak için oyunun bağlamaları/ayarlar menülerini kullanın."
-      },
-      "mod": {
-        "title": "Kontrol Cihazı Desteği Modu",
-        "description": "Menüde gezinme için eksiksiz gamepad/kontrol cihazı desteği ve bir UI imleci ekler."
-      },
+      ],
       "features": [
-        "Tam Oynanış Kontrolleri: hareket, kamera, savaş, etkileşimler ve yetenekler gamepad'e eşlenmiştir",
-        "UI İmleç Gezinmesi: menülerde beyaz bir daire imleci görünür; tıklamak ve kaydırıcıları sürüklemek için A'ya basın",
-        "Envanter Gezinmesi: envanteri açmak için Seç'i basılı tutun; basılı tutarken gezinmek için sağ çubuğu kullanın",
-        "Kaydırılabilir Menüler: sağ çubuk, üretim tariflerini, ayarları ve diğer kaydırılabilir UI alanlarını kaydırır",
-        "Hızlı Erişim Çubuğu Döngüsü: D-pad sol/sağ, 4 hızlı erişim çubuğu yuvası arasında döngü yapar",
-        "Sorunsuz Giriş Değiştirme: klavye/fare ile kontrol cihazını otomatik olarak algılar"
+        "Named facilities make daily routing easier to plan",
+        "Marketplace and food loops support repeat engagement",
+        "Photography and news facilities create evergreen story content"
+      ],
+      "rewards": [
+        "Faster daily management",
+        "Stronger resident satisfaction",
+        "Better screenshot moments",
+        "More consistent island pacing"
       ]
     },
-    "playerCount": {
-      "title": "Burglin' Gnomes Oyuncu Sayısı & Trendi",
-      "subtitle": "Canlı popülerlik anlık görüntüsü",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Şu anda oyuncu"
+    "universeMode": {
+      "title": "Tomodachi Life Living the Dream Food Guide",
+      "subtitle": "Feed Miis, learn their tastes, and keep island life moving.",
+      "intro": "Fresh Kingdom is the main food stop on the island, but feeding Miis is more than a simple item drop. Food helps you care for residents, uncover their likes and dislikes, and build a stronger daily routine around happiness, friendships, and island personality. Palette House also expands the system by letting you make custom food for residents or for display around the island.",
+      "items": [
+        {
+          "icon": "Building",
+          "section": "Fresh Kingdom",
+          "whatItIs": "The island food mart where Miis discover favorite eats and culinary curiosities.",
+          "whatPlayersCanDo": "Buy food for residents and use it as part of their day-to-day care."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24 saatlik zirve"
+        {
+          "icon": "MessageCircle",
+          "section": "Taste Feedback",
+          "whatItIs": "Miis clearly react to gifts and will tell you what they do and do not like.",
+          "whatPlayersCanDo": "Use each reaction to build a simple personal taste profile for every resident."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Tüm zamanların zirvesi"
+        {
+          "icon": "Users",
+          "section": "Favorite Food Moments",
+          "whatItIs": "Food also appears in social scenes, including conversations when you bring residents together.",
+          "whatPlayersCanDo": "Combine chat moments with gift reactions to better understand who loves what."
+        },
+        {
+          "icon": "Star",
+          "section": "Food and Happiness",
+          "whatItIs": "Giving food is one of the main care actions that makes a Mii's life nicer, and a full happiness gauge leads to level-ups.",
+          "whatPlayersCanDo": "Feed Miis regularly as part of a broader care loop with clothes, treasures, quirks, and relationship support."
+        },
+        {
+          "icon": "Palette",
+          "section": "Custom Food",
+          "whatItIs": "Palette House lets you create food of your own and use it with residents or around the island.",
+          "whatPlayersCanDo": "Turn food into both a practical care tool and a personalization feature for themed homes, districts, and characters."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "communityCreations": {
+      "title": "Tomodachi Life Living the Dream Outfits",
+      "subtitle": "Dress every resident with everyday looks, odd fits, and custom pieces.",
+      "intro": "Where & Wear is the island's main clothing store, and it covers everything from ordinary outfits to stranger costume-style looks. Clothing also ties directly into resident feedback, so style is not just cosmetic. Some gifts land perfectly, others do not, which makes outfit management feel personal rather than purely decorative.",
+      "items": [
         {
-          "date": "30 Ocak 2026",
-          "title": "Steam'de demo yayınlandı",
-          "detail": "Herkese açık demo PC'de (Steam) kullanıma sunuldu."
+          "icon": "Home",
+          "title": "Where & Wear",
+          "body": "Where & Wear is the main clothing store for everyday attire and out-there outfits.",
+          "highlights": [
+            "Main clothing shop",
+            "Covers standard looks and costume-style pieces",
+            "Useful for resident gifting and styling"
+          ]
         },
         {
-          "date": "8 Şubat 2026",
-          "title": "Tüm zamanların zirvesine ulaşıldı",
-          "detail": "Demo, kaydedilen en yüksek eş zamanlı oyuncu sayısına ulaştı."
+          "icon": "Calendar",
+          "title": "Daily Specials",
+          "body": "The shop expands its lineup with daily specials, adding both broader selection and individual pieces over time.",
+          "highlights": [
+            "Daily shop variety",
+            "Supports regular check-ins",
+            "Helps build a larger wardrobe gradually"
+          ]
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Resident Reactions",
+          "body": "Miis react to the clothes you give them, so outfit choices become part of how you learn each resident's personality and preferences.",
+          "highlights": [
+            "Not every gift lands the same way",
+            "Useful for personal styling decisions",
+            "Adds feedback to wardrobe planning"
+          ]
+        },
+        {
+          "icon": "Palette",
+          "title": "Custom Clothing at Palette House",
+          "body": "Palette House lets you decorate a special item of clothing and create more personalized fashion content for your island.",
+          "highlights": [
+            "Custom clothing support",
+            "Good for themed residents",
+            "Pairs with other handmade island items"
+          ]
+        },
+        {
+          "icon": "Globe",
+          "title": "Share Looks Locally",
+          "body": "Creations made in Palette House can be exchanged with nearby friends over local wireless.",
+          "highlights": [
+            "Local wireless sharing",
+            "Works with Mii and creation exchange",
+            "Good for collaborative island style"
+          ]
+        },
+        {
+          "icon": "Gift",
+          "title": "Hamster Costume",
+          "body": "Completing the free demo grants an in-game Hamster Costume, and the same costume can also be obtained through regular play in the full game.",
+          "highlights": [
+            "Demo reward",
+            "Also available in the main game",
+            "Simple early costume highlight"
+          ]
+        }
+      ]
+    },
+    "theIsland": {
+      "title": "Tomodachi Life Living the Dream Room Interiors",
+      "subtitle": "Refresh living spaces with T&C Reno and build better homes for every Mii.",
+      "intro": "T&C Reno is the core destination for room interiors and living-space updates. It gives you a direct way to shape how each resident's home feels, while the rest of the island's systems add context through roommates, house placement, and exterior design. Together, those tools make housing one of the strongest long-term customization layers in the game.",
+      "items": [
+        {
+          "icon": "Building",
+          "title": "T&C Reno Home Supply",
+          "body": "T&C Reno is the island shop dedicated to revamping rooms and living spaces.",
+          "highlights": [
+            "Main interiors shop",
+            "Focused on indoor spaces",
+            "Central to home customization"
+          ]
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Theme Room Variety",
+          "body": "Nintendo has already shown that Miis can have highly themed rooms, including spaces inspired by places like a supermarket or a library.",
+          "highlights": [
+            "Strong visual themes",
+            "Supports comedic and character-driven homes",
+            "Makes each resident's room feel distinct"
+          ]
+        },
+        {
+          "icon": "Calendar",
+          "title": "Daily Interior Options",
+          "body": "T&C Reno includes daily options, so new interior possibilities roll in over time rather than arriving all at once.",
+          "highlights": [
+            "Daily refresh behavior",
+            "Encourages repeat visits",
+            "Useful for collecting matching styles"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Roommates and Shared Homes",
+          "body": "Miis can choose to live together, and you can house up to eight Miis in one shared setup, changing how they interact at home.",
+          "highlights": [
+            "Up to eight roommates",
+            "Shared homes create new social moments",
+            "Housing affects day-to-day island stories"
+          ]
+        },
+        {
+          "icon": "Layers",
+          "title": "Interiors vs. Exteriors",
+          "body": "Indoor room design belongs to T&C Reno, while house exteriors and ground tiles are handled through Palette House.",
+          "highlights": [
+            "Clear split between indoor and outdoor customization",
+            "Useful for planning full home themes",
+            "Pairs room style with exterior identity"
+          ]
+        }
+      ]
+    },
+    "myfaction": {
+      "title": "Tomodachi Life Living the Dream Palette House",
+      "subtitle": "Use Palette House to design pets, food, clothing details, exteriors, and island items.",
+      "intro": "This is where Living the Dream pushes far beyond basic Mii management. Palette House lets you make original content for residents and for the island itself, covering everything from food and drinks to pets, house exteriors, tiles, and decorative items. It also connects neatly with local sharing, so your creations are not locked to a single save file.",
+      "items": [
+        {
+          "icon": "Building",
+          "step": 1,
+          "title": "Enter the Workshop",
+          "description": "Palette House is the island's design-focused workshop for original creations that go beyond the standard shop catalog."
+        },
+        {
+          "icon": "Settings",
+          "step": 2,
+          "title": "Choose a Creation Type",
+          "description": "You can work on pets, custom drinks, food, a resident's favorite TV show, a special item of clothing, house exteriors, ground tiles, and original island items."
+        },
+        {
+          "icon": "BookOpen",
+          "step": 3,
+          "title": "Start From a Base or From Scratch",
+          "description": "For food creation, you can begin with a blank slate or use a plate, bowl, box, can, or an earlier creation as your base."
+        },
+        {
+          "icon": "Sparkles",
+          "step": 4,
+          "title": "Decorate With Tools and Stamps",
+          "description": "The creation tools support stamps and even Mii faces, and finished designs can become stamps for use in later creations."
+        },
+        {
+          "icon": "Globe",
+          "step": 5,
+          "title": "Place, Gift, and Share",
+          "description": "Give creations to residents, use them as island decorations, and exchange Palette House items with nearby friends over local wireless."
+        }
+      ]
+    },
+    "lockerCodes": {
+      "title": "Tomodachi Life Living The Dream Roommates",
+      "subtitle": "Set up shared homes and manage high-interaction resident groups",
+      "quickFacts": [
+        {
+          "label": "Shared Home Cap",
+          "value": "Up to 8 residents"
+        },
+        {
+          "label": "Main Benefit",
+          "value": "More social interactions"
+        },
+        {
+          "label": "Best Use",
+          "value": "Story variety and daily events"
+        }
+      ],
+      "codes": [
+        {
+          "code": "PAIR-BALANCED-HOUSE",
+          "rewards": [
+            "Mix calm and energetic personality types",
+            "Place likely friends in nearby rooms",
+            "Avoid stacking incompatible residents at launch"
+          ],
+          "expires": "Always Relevant"
+        },
+        {
+          "code": "SOCIAL-HUB-SETUP",
+          "rewards": [
+            "Add shared amenities near roommate zones",
+            "Use regular check-ins to catch disputes early",
+            "Trigger intros between isolated residents"
+          ],
+          "expires": "Always Relevant"
+        },
+        {
+          "code": "EVENT-DRIVEN-LAYOUT",
+          "rewards": [
+            "Schedule outfit and food updates before social events",
+            "Keep one wildcard resident for new story branches",
+            "Log roommate outcomes for future reshuffles"
+          ],
+          "expires": "Always Relevant"
+        }
+      ],
+      "howToRedeem": [
+        "Choose a home intended for multi-resident activity",
+        "Assign residents with compatible baseline traits",
+        "Observe interactions and adjust nearby amenities",
+        "Rebalance households when conflict rate gets too high"
+      ]
+    },
+    "pcRequirements": {
+      "title": "Tomodachi Life Living The Dream Mii Exchange",
+      "subtitle": "How local sharing works for Miis and selected custom creations",
+      "quickFacts": [
+        {
+          "label": "Connection Type",
+          "value": "Local Wireless"
+        },
+        {
+          "label": "Share Targets",
+          "value": "Miis and selected custom assets"
+        },
+        {
+          "label": "Best Scenario",
+          "value": "Nearby multiplayer sessions"
+        },
+        {
+          "label": "Purpose",
+          "value": "Expand island variety quickly"
+        }
+      ],
+      "minimum": {
+        "os": "Nintendo Switch local wireless enabled",
+        "processor": "Both players open compatible game versions",
+        "memory": "Available save slots for imported content",
+        "graphics": "N/A",
+        "directX": "N/A",
+        "storage": "Enough save space for received data",
+        "notes": "Use nearby devices and verify region compatibility when needed"
+      },
+      "recommended": {
+        "os": "Updated game versions on all systems",
+        "processor": "Stable local session with both players ready",
+        "memory": "Organized local catalog for incoming Miis/items",
+        "graphics": "N/A",
+        "directX": "N/A",
+        "storage": "Keep room for iterative sharing sessions",
+        "notes": "Plan themed sharing sessions for faster island expansion"
+      }
+    },
+    "arenas": {
+      "title": "Tomodachi Life Living The Dream Price and Platforms",
+      "subtitle": "Compare purchasing options and platform support details",
+      "quickFacts": [
+        {
+          "label": "Storefront",
+          "value": "Nintendo eShop"
+        },
+        {
+          "label": "Platform",
+          "value": "Nintendo Switch"
+        },
+        {
+          "label": "Players",
+          "value": "Up to 2"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Pricing Overview",
+          "arenas": [
+            "Base game pricing varies by region",
+            "Demo is free",
+            "Use official store page for your local currency",
+            "Watch regional promotions during launch windows"
+          ]
+        },
+        {
+          "name": "Platform and Play Modes",
+          "arenas": [
+            "Nintendo Switch support",
+            "Handheld and docked usage",
+            "Local wireless sharing features",
+            "Account-based purchase and download flow"
+          ]
+        },
+        {
+          "name": "Language and Accessibility",
+          "arenas": [
+            "Multiple language support",
+            "Regional storefront localization",
+            "Readable UI for quick daily management",
+            "Icon-driven systems for mobile-like pacing"
+          ]
+        },
+        {
+          "name": "Buyer Checklist",
+          "arenas": [
+            "Confirm region and language expectations",
+            "Check demo transfer availability",
+            "Verify local sharing goals",
+            "Track launch-date updates from Nintendo"
+          ]
+        }
+      ]
+    },
+    "dlcUnlockables": {
+      "title": "Tomodachi Life Living The Dream Trailer and Direct",
+      "subtitle": "Key official videos and recap checkpoints in timeline order",
+      "quickFacts": [
+        {
+          "label": "Overview Trailer",
+          "value": "Official Nintendo upload"
+        },
+        {
+          "label": "Direct Coverage",
+          "value": "Nintendo Direct feature"
+        },
+        {
+          "label": "Launch Messaging",
+          "value": "Feature-focused updates"
+        },
+        {
+          "label": "Best Use",
+          "value": "Recap + onboarding"
+        }
+      ],
+      "seasons": [
+        {
+          "season": "Announcement Trailer",
+          "release": "Initial reveal timeline"
+        },
+        {
+          "season": "Nintendo Direct Feature",
+          "release": "Deep-dive showcase"
+        },
+        {
+          "season": "Overview Trailer",
+          "release": "System summary pass"
+        },
+        {
+          "season": "Pre-Launch Recap",
+          "release": "Final launch-facing materials"
+        },
+        {
+          "season": "Demo Spotlight",
+          "release": "Playable preview communication"
+        },
+        {
+          "season": "Post-Launch Guides",
+          "release": "Early lifecycle support content"
+        }
+      ],
+      "editionPacks": [
+        {
+          "name": "Core Video Set",
+          "includes": [
+            "Overview trailer for major systems",
+            "Direct segment focused on gameplay loops",
+            "Store-linked clips for conversion support"
+          ]
+        },
+        {
+          "name": "Recap Video Set",
+          "includes": [
+            "Mii creator highlight moments",
+            "Relationship and roommate story examples",
+            "Island customization before/after comparisons"
+          ]
+        },
+        {
+          "name": "New Player Set",
+          "includes": [
+            "Beginner workflow summary",
+            "Demo-to-full-version transfer reminder",
+            "Facility routing and daily checklist clips"
+          ]
+        },
+        {
+          "name": "Community Share Set",
+          "includes": [
+            "Local wireless sharing examples",
+            "Palette House creative showcases",
+            "Resident story highlight compilations"
+          ]
+        }
+      ],
+      "unlockExamples": [
+        {
+          "name": "Overview Trailer",
+          "source": "Nintendo official channel"
+        },
+        {
+          "name": "Nintendo Direct segment",
+          "source": "Nintendo Direct archive"
+        },
+        {
+          "name": "Demo feature clip",
+          "source": "Nintendo news updates"
+        },
+        {
+          "name": "Launch reminder video",
+          "source": "Official social releases"
         }
       ]
     }
   },
   "faq": {
-    "title": "Sıkça Sorulan",
-    "titleHighlight": "Sorular",
-    "subtitle": "Burglin' Gnomes hakkında bilmeniz gereken her şey",
+    "title": "Tomodachi Life Living The Dream",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers for Tomodachi Life Living The Dream players",
     "questions": [
       {
-        "question": "Burglin' Gnomes demosunu nasıl indirebilirim?",
-        "answer": "Steam mağaza sayfasını ziyaret edin ve 'Demo İndir'e tıklayın. Demo ücretsizdir ve indirmek için 2,62 GiB, disk alanı için 4,88 GiB gerektirir."
+        "question": "When does Tomodachi Life Living The Dream launch?",
+        "answer": "Tomodachi Life Living The Dream launches on April 16, 2026 for Nintendo Switch."
       },
       {
-        "question": "Burglin' Gnomes'u tek başıma mı oynayabilirim yoksa arkadaşlara mı ihtiyacım var?",
-        "answer": "Burglin' Gnomes hem tek oyunculu hem de 6 oyuncuya kadar işbirliğini destekler. Tek başına oynamak daha zordur ancak mümkündür."
+        "question": "Can I transfer progress from the Tomodachi Life Living The Dream demo?",
+        "answer": "Yes. Demo progress can transfer to the full release in supported regions."
       },
       {
-        "question": "Burglin' Gnomes'da Yüksek Cüce görevleri nelerdir?",
-        "answer": "Yüksek Cüce, 'TV'yi kır', 'tuvaleti su baskını yap' veya 'belirli eşyaları çal' gibi hedefler atayan patronunuzdur. Ekstra ödüller için bunları tamamlayın."
+        "question": "What is the core loop in Tomodachi Life Living The Dream?",
+        "answer": "You create Miis, manage relationships, develop island spaces, and personalize homes, items, and daily routines."
       },
       {
-        "question": "Burglin' Gnomes için modları nasıl kurarım?",
-        "answer": "BepInEx 5'i kurun, oyunu bir kez başlatın, ardından mod DLL'lerini BepInEx/plugins/ klasörüne yerleştirin. Çok oyunculu mod için tüm oyuncuların aynı modlara ihtiyacı vardır."
+        "question": "Does Tomodachi Life Living The Dream support local sharing?",
+        "answer": "Yes. Local wireless supports sharing selected Miis and custom creations with nearby players."
       },
       {
-        "question": "Burglin' Gnomes kontrol cihazlarını destekliyor mu?",
-        "answer": "Evet! Temel kontrol cihazı desteği için oyun içi ayarları kullanın veya tam UI gezinmesi için Nexus Mods'tan Kontrol Cihazı Modunu kurun."
+        "question": "How many players can join Tomodachi Life Living The Dream?",
+        "answer": "Tomodachi Life Living The Dream supports up to 2 players."
       },
       {
-        "question": "Burglin' Gnomes için oyuncu sayısı nedir?",
-        "answer": "Şubat 2026 itibarıyla, Burglin' Gnomes ortalama 6.000'den fazla eş zamanlı oyuncuya sahip ve 8 Şubat 2026'da 15.272 zirveye ulaştı."
+        "question": "Where should I check official Tomodachi Life Living The Dream updates?",
+        "answer": "Use Nintendo's store page, Nintendo news posts, and official trailer uploads for the latest updates."
       }
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Burglin' Gnomes topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready for Tomodachi Life Living The Dream?",
+    "description": "Track demos, trailers, launch details, and high-value island systems in one clean hub.",
+    "joinCommunity": "Join r/tomodachilife",
+    "joinGame": "Open Official Nintendo Page"
   },
   "footer": {
-    "title": "Burglin' Gnomes Wiki",
-    "description": "Burglin' Gnomes gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Burglin' Gnomes Wiki. Burglin' Gnomes geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "title": "Tomodachi Life Living The Dream Wiki",
+    "description": "A focused resource for Tomodachi Life Living The Dream release info, creation tools, social systems, and island planning.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Official Links",
+    "discord": "r/tomodachilife",
+    "twitter": "r/TomodachiLife_LTD",
+    "reddit": "Nintendo Store",
+    "youtube": "Overview Trailer",
+    "instagram": "Nintendo News",
+    "about": "Nintendo Store Page",
+    "privacy": "Nintendo News Hub",
+    "terms": "Nintendo YouTube",
+    "copyrightNotice": "Nintendo US",
+    "copyright": "© 2026 Tomodachi Life Living The Dream Wiki. Unofficial fan site.",
+    "disclaimer": "This site is a fan-made reference for Tomodachi Life Living The Dream."
   }
 }
