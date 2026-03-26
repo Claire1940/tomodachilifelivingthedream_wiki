@@ -102,22 +102,22 @@
       {
         "icon": "Package",
         "title": "Tomodachi Life Living The Dream Food Guide",
-        "description": "Daily food loops, favorites, and feeding strategy"
+        "description": "Food systems table, taste reactions, and custom food workflow"
       },
       {
         "icon": "Palette",
         "title": "Tomodachi Life Living The Dream Outfits",
-        "description": "Fashion picks, custom clothing, and style curation"
+        "description": "Where and Wear, daily specials, and resident outfit reactions"
       },
       {
         "icon": "Home",
         "title": "Tomodachi Life Living The Dream Room Interiors",
-        "description": "Room themes, furniture plans, and atmosphere design"
+        "description": "T and C Reno updates, roommate homes, and interior planning"
       },
       {
         "icon": "Settings",
         "title": "Tomodachi Life Living The Dream Palette House",
-        "description": "Create custom items, pets, foods, and decorations"
+        "description": "Five-step creation flow for pets, food, exteriors, and sharing"
       },
       {
         "icon": "ClipboardCheck",
@@ -740,199 +740,199 @@
     },
     "universeMode": {
       "title": "Tomodachi Life Living The Dream Food Guide",
-      "subtitle": "Feed smarter by tracking favorites, shop loops, and mood outcomes",
-      "quickFacts": [
+      "subtitle": "Feed Miis, learn their tastes, and keep island life moving with a reliable daily care loop.",
+      "intro": "Fresh Kingdom is the main food stop on the island, but feeding Miis is more than a simple item drop. Food helps you care for residents, uncover their likes and dislikes, and build a stronger daily routine around happiness, friendships, and island personality. Palette House also expands this system by letting you create custom food for residents or for display around the island.",
+      "items": [
         {
-          "label": "Main Source",
-          "value": "Fresh Kingdom Food Mart"
+          "icon": "Building",
+          "section": "Fresh Kingdom",
+          "whatItIs": "The island food mart where Miis discover favorite eats and culinary curiosities.",
+          "whatPlayersCanDo": "Buy food for residents and use it as part of their day-to-day care."
         },
         {
-          "label": "Primary Goal",
-          "value": "Mood and preference tuning"
+          "icon": "MessageCircle",
+          "section": "Taste Feedback",
+          "whatItIs": "Miis react clearly to gifts and show what they do and do not like.",
+          "whatPlayersCanDo": "Use each reaction to build a practical taste profile for every resident."
         },
         {
-          "label": "Cadence",
-          "value": "Check inventory each cycle"
+          "icon": "Users",
+          "section": "Favorite Food Moments",
+          "whatItIs": "Food appears in social scenes, including conversation moments between residents.",
+          "whatPlayersCanDo": "Combine chat moments with gift reactions to understand who loves what."
         },
         {
-          "label": "Best Practice",
-          "value": "Match food to resident profile"
-        }
-      ],
-      "features": [
-        {
-          "title": "Daily Stock Rotation",
-          "description": "Shop updates encourage frequent checks and better item planning."
+          "icon": "Star",
+          "section": "Food and Happiness",
+          "whatItIs": "Giving food is a core care action, and a full happiness gauge leads to level-ups.",
+          "whatPlayersCanDo": "Feed Miis regularly alongside clothes, treasures, quirks, and relationship support."
         },
         {
-          "title": "Favorite Discovery",
-          "description": "Track positive reactions to build each resident's reliable food set."
-        },
-        {
-          "title": "Mood Stabilization",
-          "description": "Use food strategically before social interactions and gifting sessions."
-        },
-        {
-          "title": "Budget Routing",
-          "description": "Split spending between essentials and experimental food picks."
-        },
-        {
-          "title": "Long-Term Cataloging",
-          "description": "Record outcomes to reduce random feeding and improve efficiency."
+          "icon": "Palette",
+          "section": "Custom Food",
+          "whatItIs": "Palette House lets you create food and drinks for residents and island display.",
+          "whatPlayersCanDo": "Use custom food as both a care tool and a visual theme asset for districts and homes."
         }
       ]
     },
     "communityCreations": {
       "title": "Tomodachi Life Living The Dream Outfits",
-      "subtitle": "Build a strong fashion library with daily refresh and custom looks",
-      "quickFacts": [
+      "subtitle": "Dress every resident with everyday looks, novelty fits, and custom pieces from shop and workshop flows.",
+      "intro": "Where & Wear is the island's main clothing store, covering daily outfits and playful costume-style options. Clothing also ties directly to resident feedback, so styling is not only cosmetic. Some gifts are perfect, others miss, and that makes wardrobe planning personal and dynamic.",
+      "items": [
         {
-          "label": "Main Shop",
-          "value": "Where & Wear Clothing"
+          "icon": "Building",
+          "title": "Where and Wear",
+          "body": "Tomodachi Life Living The Dream Where and Wear is the primary clothing shop for routine attire and standout costume looks.",
+          "highlights": [
+            "Main clothing destination",
+            "Covers everyday and novelty outfits",
+            "Useful for resident gifting and styling"
+          ]
         },
         {
-          "label": "Use Cases",
-          "value": "Identity, events, and social themes"
+          "icon": "Calendar",
+          "title": "Daily Specials",
+          "body": "Tomodachi Life Living The Dream adds daily specials, expanding both total variety and individual pieces over time.",
+          "highlights": [
+            "Daily shop refresh",
+            "Encourages regular check-ins",
+            "Builds a larger wardrobe gradually"
+          ]
         },
         {
-          "label": "Workflow",
-          "value": "Daily refresh + wardrobe plans"
+          "icon": "MessageCircle",
+          "title": "Resident Reactions",
+          "body": "Tomodachi Life Living The Dream residents react to clothes you give them, adding feedback to every style decision.",
+          "highlights": [
+            "Not every gift lands the same way",
+            "Helps map personality-driven styles",
+            "Turns outfit planning into active management"
+          ]
         },
         {
-          "label": "Synergy",
-          "value": "Matches room and personality setups"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Daily Outfit Rotation",
-          "description": "Review new stock frequently to keep resident looks fresh."
+          "icon": "Palette",
+          "title": "Custom Clothing at Palette House",
+          "body": "Tomodachi Life Living The Dream Palette House supports a special custom clothing workflow for personalized island fashion.",
+          "highlights": [
+            "Create custom clothing details",
+            "Great for themed residents",
+            "Pairs with other handmade island content"
+          ]
         },
         {
-          "title": "Theme-Based Wardrobes",
-          "description": "Create casual, formal, and novelty sets for story variety."
+          "icon": "Globe",
+          "title": "Share Looks Locally",
+          "body": "Tomodachi Life Living The Dream creations from Palette House can be shared with nearby friends over local wireless.",
+          "highlights": [
+            "Local wireless sharing",
+            "Supports Mii and creation exchange",
+            "Useful for collaborative island style"
+          ]
         },
         {
-          "title": "Custom Design Direction",
-          "description": "Use custom clothing to make specific Miis instantly recognizable."
-        },
-        {
-          "title": "Event Styling",
-          "description": "Coordinate clothing with celebrations, photo sessions, and shared moments."
-        },
-        {
-          "title": "Resident Matching",
-          "description": "Align styles with personality and relationship roles for better immersion."
-        },
-        {
-          "title": "Collection Strategy",
-          "description": "Maintain a balanced wardrobe catalog for ongoing island scenarios."
+          "icon": "Gift",
+          "title": "Hamster Costume",
+          "body": "Tomodachi Life Living The Dream demo completion grants a Hamster Costume, and the same outfit is also obtainable in full-game play.",
+          "highlights": [
+            "Demo reward highlight",
+            "Also available through regular progression",
+            "Simple early costume objective"
+          ]
         }
       ]
     },
     "theIsland": {
       "title": "Tomodachi Life Living The Dream Room Interiors",
-      "subtitle": "Design homes that reinforce identity, comfort, and social rhythm",
-      "quickFacts": [
+      "subtitle": "Refresh living spaces with T and C Reno and build better homes for every resident on the island.",
+      "intro": "T and C Reno is the core destination for room interiors and living-space updates. It lets you shape how each resident home feels, while roommate systems, placement tools, and exterior customization add broader housing context. Together, these tools make housing one of the strongest long-term customization layers in the game.",
+      "items": [
         {
-          "label": "Main Facility",
-          "value": "T&C Reno Home Supply"
+          "icon": "Building",
+          "title": "T and C Reno Home Supply",
+          "body": "Tomodachi Life Living The Dream T and C Reno is the dedicated interiors shop for revamping rooms and living spaces.",
+          "highlights": [
+            "Main indoor design facility",
+            "Focused on room interiors",
+            "Central to home customization"
+          ]
         },
         {
-          "label": "Core Elements",
-          "value": "Furniture, wallpaper, flooring"
+          "icon": "Sparkles",
+          "title": "Theme Room Variety",
+          "body": "Tomodachi Life Living The Dream shows highly themed rooms, including spaces inspired by settings like supermarkets and libraries.",
+          "highlights": [
+            "Strong visual themes",
+            "Supports comedic and character-driven homes",
+            "Makes each resident room feel distinct"
+          ]
         },
         {
-          "label": "Design Goal",
-          "value": "Resident comfort and style fit"
+          "icon": "Calendar",
+          "title": "Daily Interior Options",
+          "body": "Tomodachi Life Living The Dream T and C Reno rotates options daily, so new interior opportunities roll in over time.",
+          "highlights": [
+            "Daily refresh behavior",
+            "Encourages repeat visits",
+            "Helps collect matching themes"
+          ]
         },
         {
-          "label": "Planning",
-          "value": "Room themes by personality"
+          "icon": "Users",
+          "title": "Roommates and Shared Homes",
+          "body": "Tomodachi Life Living The Dream allows shared homes, with up to eight Miis in one setup, changing social interactions at home.",
+          "highlights": [
+            "Supports up to eight roommates",
+            "Shared homes create additional social moments",
+            "Housing choices affect day-to-day stories"
+          ]
+        },
+        {
+          "icon": "Layers",
+          "title": "Interiors Versus Exteriors",
+          "body": "Tomodachi Life Living The Dream separates indoor room design and outdoor home styling between T and C Reno and Palette House.",
+          "highlights": [
+            "Clear split between indoor and outdoor systems",
+            "Useful for full-home planning",
+            "Pairs room style with exterior identity"
+          ]
         }
-      ],
-      "orders": [
-        {
-          "name": "Minimal Comfort",
-          "leader": "Starter Residents",
-          "description": "Clean layouts for daily utility and easy maintenance."
-        },
-        {
-          "name": "Story-Driven Themes",
-          "leader": "Social Residents",
-          "description": "Interior style reflects relationship role and character identity."
-        },
-        {
-          "name": "Collection Showrooms",
-          "leader": "Collector Residents",
-          "description": "Display rare items and decorative sets in curated spaces."
-        }
-      ],
-      "prestige": [
-        {
-          "tier": "Starter",
-          "ovrRange": "Basic furniture + one visual theme"
-        },
-        {
-          "tier": "Comfort",
-          "ovrRange": "Consistent styling + mood-friendly setup"
-        },
-        {
-          "tier": "Signature",
-          "ovrRange": "Distinct room identity for each resident"
-        },
-        {
-          "tier": "Showcase",
-          "ovrRange": "High-expression interiors for photos and events"
-        }
-      ],
-      "highlights": [
-        "Interiors are a major lever for both visual quality and immersion",
-        "Room planning works best when tied to resident personality",
-        "Consistent room updates improve long-term island storytelling"
       ]
     },
     "myfaction": {
       "title": "Tomodachi Life Living The Dream Palette House",
-      "subtitle": "Create original island assets for gifting, decorating, and sharing",
-      "quickFacts": [
+      "subtitle": "Use Palette House to design pets, food, clothing details, exteriors, and island items with a hands-on workflow.",
+      "intro": "Palette House is the main creative workshop and one of the biggest identity systems in Tomodachi Life Living The Dream. It moves customization beyond fixed shop inventories by letting you create original assets for residents and for the island itself, then share those creations locally.",
+      "items": [
         {
-          "label": "Creation Scope",
-          "value": "Food, clothing, pets, structures"
+          "icon": "Building",
+          "step": 1,
+          "title": "Enter the Workshop",
+          "description": "Tomodachi Life Living The Dream Palette House is the dedicated workshop for original creations beyond standard shop catalogs."
         },
         {
-          "label": "Usage",
-          "value": "Decoration + Gifts"
+          "icon": "Settings",
+          "step": 2,
+          "title": "Choose a Creation Type",
+          "description": "Create pets, custom drinks, food, favorite TV shows, clothing details, house exteriors, ground tiles, and original island items."
         },
         {
-          "label": "Sharing",
-          "value": "Local wireless supported"
+          "icon": "BookOpen",
+          "step": 3,
+          "title": "Start from a Base or from Scratch",
+          "description": "For food creation, begin from a blank slate or use plates, bowls, boxes, cans, or earlier creations as your base."
         },
         {
-          "label": "Value",
-          "value": "Long-term island identity"
-        }
-      ],
-      "features": [
-        {
-          "title": "Custom Food and Drinks",
-          "description": "Build original consumables for playful resident reactions."
+          "icon": "Sparkles",
+          "step": 4,
+          "title": "Decorate with Tools and Stamps",
+          "description": "Creation tools support stamps and Mii faces, and finished designs can become reusable stamps for future projects."
         },
         {
-          "title": "Custom Clothing Pieces",
-          "description": "Design visual identity assets unavailable in default inventory."
-        },
-        {
-          "title": "Custom Pets and Objects",
-          "description": "Add personality-driven props to homes and public spaces."
-        },
-        {
-          "title": "House Exterior Variants",
-          "description": "Create distinctive neighborhood silhouettes and theme zones."
-        },
-        {
-          "title": "Gift Pipeline",
-          "description": "Turn creations into resident gifts and local exchange materials."
+          "icon": "Globe",
+          "step": 5,
+          "title": "Place, Gift, and Share",
+          "description": "Give creations to residents, place them around the island, and exchange Palette House content with nearby friends over local wireless."
         }
       ]
     },

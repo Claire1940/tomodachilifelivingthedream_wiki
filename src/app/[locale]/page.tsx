@@ -628,14 +628,58 @@ export default function HomePage() {
       <section id="food-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.universeMode.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.universeMode.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.universeMode.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto mt-6">{t.modules.universeMode.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-5xl mx-auto mt-5 leading-relaxed">{t.modules.universeMode.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.universeMode.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+
+          <div className="hidden md:block rounded-xl border-2 border-border bg-card overflow-hidden">
+            <div className="grid grid-cols-12 bg-muted/40">
+              <div className="col-span-3 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">Tomodachi Life Living The Dream Section</div>
+              <div className="col-span-4 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">What It Is</div>
+              <div className="col-span-5 p-4 text-sm font-bebas tracking-wide text-[hsl(var(--nav-theme))]">What Players Can Do</div>
+            </div>
+            {(t.modules.universeMode.items || []).map((item: any, i: number) => (
+              <div
+                key={i}
+                className="grid grid-cols-12 border-t border-border/70 hover:bg-muted/30 transition-colors"
+              >
+                <div className="col-span-3 p-4">
+                  <div className="flex items-start gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center flex-shrink-0">
+                      <DynamicIcon name={item.icon} className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="text-sm font-semibold text-[hsl(var(--nav-theme))] leading-snug">{item.section}</h3>
+                  </div>
+                </div>
+                <div className="col-span-4 p-4 text-sm text-muted-foreground">{item.whatItIs}</div>
+                <div className="col-span-5 p-4 text-sm">{item.whatPlayersCanDo}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="md:hidden space-y-4">
+            {(t.modules.universeMode.items || []).map((item: any, i: number) => (
+              <div key={i} className="p-5 rounded-xl bg-card border-2 border-border">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center">
+                    <DynamicIcon name={item.icon} className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="text-lg font-bebas text-[hsl(var(--nav-theme))]">{item.section}</h3>
+                </div>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <p className="font-semibold text-[hsl(var(--gold-dark))]">What It Is</p>
+                    <p className="text-muted-foreground mt-1">{item.whatItIs}</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-[hsl(var(--gold-dark))]">What Players Can Do</p>
+                    <p className="mt-1">{item.whatPlayersCanDo}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -646,14 +690,35 @@ export default function HomePage() {
       <section id="outfits" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.communityCreations.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.communityCreations.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.communityCreations.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto mt-6">{t.modules.communityCreations.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-5xl mx-auto mt-5 leading-relaxed">{t.modules.communityCreations.intro}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.communityCreations.sections.map((section: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
-                <p className="text-sm text-muted-foreground">{section.description}</p>
+            {(t.modules.communityCreations.items || []).map((item: any, i: number) => (
+              <div
+                key={i}
+                className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--gold)/0.55)] transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="w-10 h-10 rounded-lg mb-4 bg-gradient-to-br from-[hsl(var(--nav-theme)/0.14)] to-[hsl(var(--gold)/0.12)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={item.icon}
+                    className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <h3 className="text-xl font-bebas mb-2 text-[hsl(var(--nav-theme))]">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{item.body}</p>
+                <ul className="space-y-2">
+                  {(item.highlights || []).map((highlight: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--gold-dark))] mt-0.5 flex-shrink-0" />
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -671,23 +736,32 @@ export default function HomePage() {
       <section id="room-interiors" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.theIsland.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.theIsland.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.theIsland.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto mt-6">{t.modules.theIsland.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-5xl mx-auto mt-5 leading-relaxed">{t.modules.theIsland.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            {t.modules.theIsland.orders.map((order: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme))]">{order.name}</h3>
-                <p className="text-sm text-muted-foreground mb-3">Focus: {order.leader}</p>
-                <p className="text-sm">{order.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.theIsland.prestige.map((tier: any, i: number) => (
-              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
-                <div className="font-bold text-[hsl(var(--nav-theme))] mb-1">{tier.tier}</div>
-                <div className="text-xs text-muted-foreground">{tier.ovrRange}</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {(t.modules.theIsland.items || []).map((item: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300">
+                <div className="w-10 h-10 rounded-lg mb-4 bg-[hsl(var(--gold)/0.1)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                  <DynamicIcon
+                    name={item.icon}
+                    className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <h3 className="text-xl font-bebas mb-2 text-[hsl(var(--nav-theme))]">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{item.body}</p>
+                <ul className="space-y-2">
+                  {(item.highlights || []).map((highlight: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -698,14 +772,31 @@ export default function HomePage() {
       <section id="palette-house" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myfaction.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myfaction.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.myfaction.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto mt-6">{t.modules.myfaction.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-5xl mx-auto mt-5 leading-relaxed">{t.modules.myfaction.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.myfaction.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 lg:gap-5">
+            {(t.modules.myfaction.items || []).map((item: any, i: number) => (
+              <div
+                key={i}
+                className="p-5 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--gold)/0.55)] transition-all duration-300 relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-14 h-14 bg-gradient-to-br from-[hsl(var(--gold)/0.12)] to-transparent rounded-bl-2xl" />
+                <div className="w-9 h-9 rounded-lg mb-3 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center relative z-10">
+                  <DynamicIcon
+                    name={item.icon}
+                    className="w-4 h-4 text-[hsl(var(--nav-theme-light))]"
+                  />
+                </div>
+                <div className="text-xs uppercase tracking-wide text-[hsl(var(--gold-dark))] mb-2">
+                  Step {item.step}
+                </div>
+                <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme))]">{item.title}</h3>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
           </div>
