@@ -46,7 +46,7 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 
 export default function HomePage() {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tomodachilifelivingthedream.wiki'
 
   // Structured data
   const structuredData = {
@@ -56,14 +56,14 @@ export default function HomePage() {
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "WWE 2K26 Wiki",
-        description: "Complete WWE 2K26 resource hub with roster, ratings, locker codes, match types, and game mode guides.",
+        name: 'Tomodachi Life: Living the Dream Wiki',
+        description: 'Official fan resource hub for Tomodachi Life: Living the Dream with Mii guides, island tips, relationships, and trailer updates.',
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 - Wrestling Simulation Game",
+          caption: 'Tomodachi Life: Living the Dream - Nintendo Switch',
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -74,10 +74,10 @@ export default function HomePage() {
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "WWE 2K26 Wiki",
-        alternateName: "WWE 2K26",
+        name: 'Tomodachi Life: Living the Dream Wiki',
+        alternateName: 'Tomodachi Life Living The Dream',
         url: siteUrl,
-        description: "Complete WWE 2K26 Wiki resource hub for roster, ratings, and game modes",
+        description: 'Community wiki hub for Tomodachi Life: Living the Dream players on Nintendo Switch.',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -89,30 +89,31 @@ export default function HomePage() {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 Wiki - Master Wrestling",
+          caption: 'Tomodachi Life: Living the Dream Wiki',
         },
         sameAs: [
-          'https://wwe.2k.com/2k26/',
-          'https://discord.com/invite/wwe2k',
-          'https://x.com/WWEgames',
+          'https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/',
+          'https://www.reddit.com/r/tomodachilife/',
+          'https://www.reddit.com/r/TomodachiLife_LTD/',
+          'https://www.youtube.com/watch?v=_xY0XuGOWJs',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "WWE 2K26",
-        gamePlatform: ['PlayStation 5', 'Xbox Series X|S', 'PC', 'Nintendo Switch 2'],
+        name: 'Tomodachi Life: Living the Dream',
+        gamePlatform: ['Nintendo Switch'],
         applicationCategory: 'Game',
-        genre: ['Sports', 'Wrestling', 'Simulation'],
+        genre: ['Life Simulation', 'Social Simulation'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 4,
+          maxValue: 2,
         },
         offers: {
           '@type': 'Offer',
-          price: '69.99',
+          price: '0',
           priceCurrency: 'USD',
-          availability: 'https://schema.org/PreOrder',
-          url: 'https://store.steampowered.com/app/3717070/WWE_2K26/',
+          availability: 'https://schema.org/InStock',
+          url: 'https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/',
         },
       },
     ],
@@ -213,8 +214,10 @@ export default function HomePage() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <button
-                onClick={() => scrollToSection('locker-codes')}
+              <a
+                href="https://www.nintendo.com/au/games/nintendo-switch/tomodachi-life-living-the-dream/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg
@@ -224,9 +227,9 @@ export default function HomePage() {
               >
                 <Gift className="w-5 h-5 transition-transform group-hover:scale-110" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a
-                href="https://store.steampowered.com/app/3717070/WWE_2K26/"
+                href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
@@ -257,8 +260,8 @@ export default function HomePage() {
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="oYd6rXOrz7E"
-              title="The Show Is On! | WWE 2K26 Official Announce Trailer"
+              videoId="_xY0XuGOWJs"
+              title="Tomodachi Life: Living the Dream - Overview Trailer - Nintendo Switch"
               posterImage="/images/hero.webp"
             />
           </div>
@@ -852,7 +855,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/wwe2k"
+                    href="https://www.reddit.com/r/tomodachilife/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -862,7 +865,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a
-                    href="https://x.com/WWEgames"
+                    href="https://www.reddit.com/r/TomodachiLife_LTD/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -872,7 +875,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.reddit.com/r/WWEGames/"
+                    href="https://www.reddit.com/r/tomodachilife/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -882,7 +885,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.youtube.com/@WWEGames"
+                    href="https://www.youtube.com/watch?v=_xY0XuGOWJs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -892,7 +895,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.instagram.com/wwegames/"
+                    href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
