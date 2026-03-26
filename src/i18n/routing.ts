@@ -1,18 +1,17 @@
 import { defineRouting } from 'next-intl/routing'
 
 export const routing = defineRouting({
-	// 支持的语言列表
-	locales: ['en', 'es', 'pt', 'de', 'fr', 'ja', 'ar', 'ko'],
+  // Supported locales for this wiki (up to 8 with English)
+  locales: ['en', 'pt', 'es', 'ja', 'ko', 'fr', 'de', 'th'],
 
-	// 默认语言
-	defaultLocale: 'en',
+  // Default locale
+  defaultLocale: 'en',
 
-	// URL 前缀策略：默认语言无前缀
-	localePrefix: 'as-needed',
+  // No prefix for default locale
+  localePrefix: 'as-needed',
 
-	// 启用自动语言检测
-	localeDetection: true,
+  // Enable locale detection
+  localeDetection: true,
 })
 
-// 导出类型
 export type Locale = (typeof routing.locales)[number]

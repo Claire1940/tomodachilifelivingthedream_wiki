@@ -9,29 +9,29 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["es", "pt", "de", "fr", "ja", "ar", "ko"],
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "WWE 2K26",
-    "es": "WWE 2K26",
-    "pt": "WWE 2K26",
-    "de": "WWE 2K26",
-    "fr": "WWE 2K26",
-    "ja": "WWE 2K26",
-    "ar": "WWE 2K26",
-    "ko": "WWE 2K26"
+    "en": "Tomodachi Life: Living the Dream",
+    "pt": "Tomodachi Life: Vivendo o Sonho",
+    "es": "Tomodachi Life: Una vida de ensueño",
+    "ja": "トモダチコレクション わくわく生活",
+    "ko": "친구모아 아일랜드 두근두근 라이프",
+    "fr": "Tomodachi Life : Une vie de rêve",
+    "de": "Tomodachi Life: Wo Träume wahr werden",
+    "th": "Tomodachi Life: ชีวิตในฝัน"
   },
 
   "lang_names": {
-    "es": "Spanish",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "fr": "French",
+    "es": "Spanish",
     "ja": "Japanese",
-    "ar": "Arabic",
-    "ko": "Korean"
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "th": "Thai"
   },
 
   "batch_size": 20,

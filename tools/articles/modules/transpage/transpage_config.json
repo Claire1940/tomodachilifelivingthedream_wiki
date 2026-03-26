@@ -10,49 +10,50 @@
   "retry_attempts": 8,
   "retry_delay": 10,
 
-  "languages": ["es", "pt", "de", "fr", "ja", "ar", "ko"],
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["WWE 2K26", "WWE"],
+    "game_names": [
+      "Tomodachi Life: Living the Dream",
+      "トモダチコレクション わくわく生活",
+      "Tomodachi Life"
+    ],
     "character_names": [
-      "CM Punk", "Roman Reigns", "Cody Rhodes", "Seth Rollins", "Rhea Ripley",
-      "Bianca Belair", "John Cena", "The Rock", "Stone Cold Steve Austin",
-      "The Undertaker", "Triple H", "Shawn Michaels", "Bret Hart", "Randy Orton",
-      "Rey Mysterio", "Edge", "Becky Lynch", "Charlotte Flair", "Sasha Banks",
-      "Bayley", "Asuka", "Liv Morgan", "Gunther", "Drew McIntyre"
+      "Mii",
+      "Miis"
     ],
     "technical_terms": [
-      "MyGM", "MyRISE", "MyFACTION", "Universe Mode", "Showcase",
-      "Royal Rumble", "WrestleMania", "SummerSlam", "Survivor Series",
-      "Money in the Bank", "Hell in a Cell", "Elimination Chamber",
-      "SmackDown", "Raw", "NXT", "Superstar", "Finisher", "Signature Move",
-      "Grapple", "Reversal", "Pin", "Submission", "DLC", "Season Pass",
-      "PS5", "Xbox", "Steam", "Switch 2", "2K", "Visual Concepts"
+      "Nintendo Switch",
+      "Nintendo Switch 2",
+      "Nintendo Direct",
+      "Demo",
+      "Trailer",
+      "Mii Creator"
     ]
   },
 
   "game_names": {
-    "en": "WWE 2K26",
-    "es": "WWE 2K26",
-    "pt": "WWE 2K26",
-    "de": "WWE 2K26",
-    "fr": "WWE 2K26",
-    "ja": "WWE 2K26",
-    "ar": "WWE 2K26",
-    "ko": "WWE 2K26"
+    "en": "Tomodachi Life: Living the Dream",
+    "pt": "Tomodachi Life: Vivendo o Sonho",
+    "es": "Tomodachi Life: Una vida de ensueño",
+    "ja": "トモダチコレクション わくわく生活",
+    "ko": "친구모아 아일랜드 두근두근 라이프",
+    "fr": "Tomodachi Life : Une vie de rêve",
+    "de": "Tomodachi Life: Wo Träume wahr werden",
+    "th": "Tomodachi Life: ชีวิตในฝัน"
   },
 
   "lang_names": {
-    "es": "Spanish",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "fr": "French",
+    "es": "Spanish",
     "ja": "Japanese",
-    "ar": "Arabic",
-    "ko": "Korean"
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "th": "Thai"
   }
 }
