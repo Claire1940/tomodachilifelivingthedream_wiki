@@ -60,10 +60,10 @@ export default function Navigation() {
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
 						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							W
+							T
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">WWE 2K26</span>
-						<span className="font-bold text-lg sm:hidden">WWE</span>
+						<span className="font-bold text-lg hidden sm:inline">Tomodachi Life: Living the Dream</span>
+						<span className="font-bold text-lg sm:hidden">TOMODACHI</span>
 					</Link>
 
 					{/* Desktop Navigation */}
