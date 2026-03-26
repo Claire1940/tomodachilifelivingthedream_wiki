@@ -129,7 +129,7 @@ export default function Navigation() {
 
 						{/* Play Button */}
 						<a
-							href="https://www.nintendo.com/us/"
+							href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white hidden sm:flex px-4 py-2 rounded-md font-medium text-sm transition-colors"
@@ -169,7 +169,7 @@ export default function Navigation() {
 								<ThemeToggle />
 							</div>
 							<a
-								href="https://www.nintendo.com/us/"
+								href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white w-full px-4 py-2 rounded-md font-medium text-sm transition-colors text-center"
